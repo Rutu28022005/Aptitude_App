@@ -8,6 +8,7 @@ import 'providers/auth_provider.dart';
 import 'providers/quiz_provider.dart';
 import 'providers/analytics_provider.dart';
 import 'services/local_storage_service.dart';
+import 'services/notification_service.dart';
 import 'screens/auth/login_screen.dart';
 import 'screens/home/home_screen.dart';
 import 'utils/theme.dart';
@@ -47,6 +48,9 @@ void main() async {
   // Initialize local storage
   await LocalStorageService.init();
   print('✅ Local storage initialized');
+
+  // Initialize local notification plugin for reminders
+  await NotificationService.initialize();
   
   runApp(const MyApp());
 }

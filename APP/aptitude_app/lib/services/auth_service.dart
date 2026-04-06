@@ -72,9 +72,14 @@ class AuthService {
 
       if (kIsWeb) {
         // Web must use Firebase popup/redirect instead of google_sign_in plugin flow.
-        userCredential = await _auth.signInWithPopup(GoogleAuthProvider());
+        final provider = GoogleAuthProvider()..setCustomParameters({
+          'prompt': 'select_account',
+        });
+        userCredential = await _auth.signInWithPopup(provider);
       } else {
         // Trigger native Google Sign-In flow for Android/iOS.
+        // Force account chooser each time to avoid silently reusing a previous session.
+        await _googleSignIn.signOut();
         final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
         if (googleUser == null) return null; // User cancelled
 

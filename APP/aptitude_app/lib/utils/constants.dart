@@ -54,6 +54,9 @@ class AppConstants {
   static const String keyUserEmail = 'user_email';
   static const String keyLastQuizDate = 'last_quiz_date';
   static const String keyStreakCount = 'streak_count';
+  static const String keyNotificationsEnabled = 'notifications_enabled';
+  static const String keyNotificationHour = 'notification_hour';
+  static const String keyNotificationMinute = 'notification_minute';
   
   // Performance Thresholds
   static const double excellentThreshold = 90.0;

@@ -1,6 +1,6 @@
 # 🎯 Aptitude Pro - Placement Preparation App
 
-A comprehensive Flutter mobile application designed to help college students prepare for campus placements and competitive exams through AI-powered aptitude practice.
+A Flutter app to help students prepare for placements and competitive exams with quizzes, analytics, authentication, and daily reminder notifications. Works on **Android** and **Web** (Flutter web).
 
 ## ✨ Features
 
@@ -8,12 +8,15 @@ A comprehensive Flutter mobile application designed to help college students pre
 - **Mathematics/Quants** - Arithmetic, Algebra, Data Interpretation
 - **Logical Reasoning** - Puzzles, Patterns, Analytical Reasoning  
 - **VARC** - Verbal Ability & Reading Comprehension
+- **Information Technology** - IT theory + code MCQs
 
 ### 🔐 Authentication
-- Email/Password authentication
-- Google Sign-In
-- Secure session management
-- Persistent login
+- **Email/Password** (Firebase Auth)
+- **Google Sign-In** (Firebase Auth)
+  - Web uses Firebase popup sign-in
+  - Android uses native Google sign-in + Firebase credential
+  - Account chooser is forced (so it doesn’t silently reuse a prior session)
+- **Persistent session** with auth state listener
 
 ### 📝 Quiz System
 - Customizable difficulty levels (Easy, Medium, Hard)
@@ -35,6 +38,11 @@ A comprehensive Flutter mobile application designed to help college students pre
 - Motivational messages based on performance
 - Overall accuracy tracking
 - Best score highlights
+
+### 🔔 Notifications
+- **Daily practice reminder**
+- **Time picker** to set reminder time (stored locally)
+- Android notification permission supported (Android 13+)
 
 ## 🚀 Getting Started
 
@@ -59,14 +67,24 @@ A comprehensive Flutter mobile application designed to help college students pre
 3. **Setup Firebase**
    - Follow the detailed guide in [FIREBASE_SETUP.md](FIREBASE_SETUP.md)
    - Create Firebase project
-   - Enable Authentication (Email/Password + Google)
-   - Setup Firestore Database
-   - Add `google-services.json` to `android/app/`
+   - Enable Authentication: **Email/Password** + **Google**
+   - Create Firestore Database
+   - Add `android/app/google-services.json`
 
-4. **Run the app**
+4. **Web (Flutter web) setup**
+   - In Firebase Console → Authentication → Settings → **Authorized domains**
+     - Add your domain (and `localhost` for local testing)
+
+5. **Run the app**
    ```bash
    flutter run
    ```
+
+### Running on Web
+
+```bash
+flutter run -d chrome
+```
 
 ## 📱 Tech Stack
 
@@ -77,6 +95,7 @@ A comprehensive Flutter mobile application designed to help college students pre
 - **State Management**: Provider
 - **Charts**: fl_chart
 - **Local Storage**: SharedPreferences
+- **Notifications**: flutter_local_notifications (+ timezone scheduling)
 - **UI**: Material Design 3 + Google Fonts (Inter)
 
 ## 📂 Project Structure
@@ -91,6 +110,11 @@ lib/
 ├── widgets/                     # Reusable components
 └── utils/                       # Utilities & constants
 ```
+
+Key files:
+- `lib/services/auth_service.dart` (email + Google sign-in)
+- `lib/services/notification_service.dart` (daily reminder scheduling)
+- `lib/screens/profile/notification_settings_screen.dart` (time picker + toggle)
 
 ## 🎨 Design Philosophy
 
@@ -134,16 +158,15 @@ final response = await http.post(
 flutter build apk --release
 ```
 
-### iOS
+### Web
 ```bash
-flutter build ios --release
+flutter build web
 ```
 
 ## 📝 Environment Setup
 
 ### Firebase Configuration Files Required:
 - `android/app/google-services.json` (Android)
-- `ios/Runner/GoogleService-Info.plist` (iOS)
 
 ## 🧪 Testing
 
@@ -158,15 +181,13 @@ The app includes:
 
 - Firebase Authentication
 - Firestore security rules
-- SHA-1 fingerprint verification for Google Sign-In
+- SHA-1 / SHA-256 fingerprint verification for Google Sign-In (Android)
 - Password validation
 - Email format validation
 
 ## 📚 Documentation
 
-- [Implementation Plan](../brain/c294e161-295f-427c-a89b-83bc6d03f950/implementation_plan.md)
 - [Firebase Setup Guide](FIREBASE_SETUP.md)
-- [Project Walkthrough](../brain/c294e161-295f-427c-a89b-83bc6d03f950/walkthrough.md)
 
 ## 🎯 Sample Questions
 
@@ -177,7 +198,6 @@ The app includes 15 built-in sample questions (5 per subject) for testing:
 
 ## 🚀 Future Enhancements
 
-- [ ] Push notifications for daily reminders
 - [ ] Leaderboard system  
 - [ ] Offline mode with cached questions
 - [ ] Company-specific test modules
