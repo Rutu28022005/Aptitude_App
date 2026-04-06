@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "difficulty": "easy",
+    "language": "C",
+    "question": "What is the output of the following C program?",
+    "code": "#include <stdio.h>\nint main(){\n  int a=5,b=2;\n  printf(\"%d\", a/b);\n  return 0;\n}\n",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "0"
+    ],
+    "correct_answer": "2",
+    "solution": "In C, integer division truncates the fractional part. 5/2 = 2 (not 2.5)."
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "language": "C",
+    "question": "What is the output of the following C program?",
+    "code": "#include <stdio.h>\nint main(){\n  int x=1;\n  x += 3;\n  printf(\"%d\", x);\n  return 0;\n}\n",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "4",
+    "solution": "x starts at 1. After x += 3, x becomes 4, so it prints 4."
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  cout << (10%3);\n  return 0;\n}\n",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": "1",
+    "solution": "10 % 3 is the remainder when 10 is divided by 3, which is 1."
+  },
+  {
+    "id": 4,
+    "difficulty": "easy",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int s=0;\n  for(int i=1;i<=3;i++) s+=i;\n  cout<<s;\n  return 0;\n}\n",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": "6",
+    "solution": "The loop adds 1+2+3 = 6, so it prints 6."
+  },
+  {
+    "id": 5,
+    "difficulty": "easy",
+    "language": "Java",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n  public static void main(String[] args){\n    int a=7;\n    System.out.print(a%2);\n  }\n}\n",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": "1",
+    "solution": "7 % 2 gives remainder 1, so it prints 1."
+  },
+  {
+    "id": 6,
+    "difficulty": "easy",
+    "language": "Java",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n  public static void main(String[] args){\n    String s=\"Hi\";\n    System.out.print(s.length());\n  }\n}\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "2",
+    "solution": "\"Hi\" has 2 characters; length() returns 2."
+  },
+  {
+    "id": 7,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "a=5\nb=2\nprint(a//b)\n",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "0"
+    ],
+    "correct_answer": "2",
+    "solution": "In Python, // is floor (integer) division. 5//2 = 2."
+  },
+  {
+    "id": 8,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "s='abc'\nprint(s[1])\n",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "Error"
+    ],
+    "correct_answer": "b",
+    "solution": "Python uses 0-based indexing: s[0]='a', s[1]='b'."
+  },
+  {
+    "id": 9,
+    "difficulty": "easy",
+    "language": "C",
+    "question": "What is the output of the following C program?",
+    "code": "#include <stdio.h>\nint main(){\n  printf(\"%d\", (3+4)*2);\n  return 0;\n}\n",
+    "options": [
+      "11",
+      "14",
+      "7",
+      "8"
+    ],
+    "correct_answer": "14",
+    "solution": "Parentheses first: 3+4=7, then 7*2=14."
+  },
+  {
+    "id": 10,
+    "difficulty": "easy",
+    "language": "C",
+    "question": "What is the output of the following C program?",
+    "code": "#include <stdio.h>\nint main(){\n  int i; for(i=0;i<3;i++){}\n  printf(\"%d\", i);\n  return 0;\n}\n",
+    "options": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "correct_answer": "3",
+    "solution": "Loop runs with i=0,1,2 then stops when i==3; it prints 3."
+  },
+  {
+    "id": 11,
+    "difficulty": "easy",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  string s=\"ab\";\n  cout<<s+\"c\";\n}\n",
+    "options": [
+      "abc",
+      "ab",
+      "ac",
+      "Error"
+    ],
+    "correct_answer": "abc",
+    "solution": "String concatenation forms \"ab\"+\"c\" = \"abc\"."
+  },
+  {
+    "id": 12,
+    "difficulty": "easy",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int a=5;\n  cout<<(a==5);\n}\n",
+    "options": [
+      "true",
+      "false",
+      "1",
+      "0"
+    ],
+    "correct_answer": "1",
+    "solution": "In C++, boolean printed as integer by default: (a==5) is true, prints 1."
+  },
+  {
+    "id": 13,
+    "difficulty": "easy",
+    "language": "Java",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n  public static void main(String[] args){\n    int x=2;\n    x*=x;\n    System.out.print(x);\n  }\n}\n",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correct_answer": "4",
+    "solution": "x=2; x*=x makes x=4; it prints 4."
+  },
+  {
+    "id": 14,
+    "difficulty": "easy",
+    "language": "Java",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n  public static void main(String[] args){\n    System.out.print(\"A\".toLowerCase());\n  }\n}\n",
+    "options": [
+      "A",
+      "a",
+      "Error",
+      "aa"
+    ],
+    "correct_answer": "a",
+    "solution": "toLowerCase converts \"A\" to \"a\"."
+  },
+  {
+    "id": 15,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "x=0\nfor i in range(3):\n    x+=i\nprint(x)\n",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "correct_answer": "3",
+    "solution": "range(3) gives 0,1,2. Sum is 0+1+2=3."
+  },
+  {
+    "id": 16,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print('ab'.upper())\n",
+    "options": [
+      "AB",
+      "ab",
+      "Ab",
+      "aB"
+    ],
+    "correct_answer": "AB",
+    "solution": "upper() converts all letters to uppercase."
+  },
+  {
+    "id": 17,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 18,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 19,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 20,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 21,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 22,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 23,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 24,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 25,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 26,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 27,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 28,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 29,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 30,
+    "difficulty": "easy",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "print(3*'a')\n",
+    "options": [
+      "aaa",
+      "3a",
+      "a3",
+      "Error"
+    ],
+    "correct_answer": "aaa",
+    "solution": "String repetition: 3*'a' repeats 'a' three times producing 'aaa'."
+  },
+  {
+    "id": 31,
+    "difficulty": "medium",
+    "language": "C",
+    "question": "What is the output of the following C program?",
+    "code": "#include <stdio.h>\nint f(int x){ return x*x; }\nint main(){\n  printf(\"%d\", f(3));\n  return 0;\n}\n",
+    "options": [
+      "6",
+      "9",
+      "3",
+      "0"
+    ],
+    "correct_answer": "9",
+    "solution": "f(3) returns 3*3=9, so output is 9."
+  },
+  {
+    "id": 32,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int a[3]={1,2,3};\n  cout<<a[0]+a[2];\n}\n",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "4",
+    "solution": "a[0]=1 and a[2]=3; their sum is 4."
+  },
+  {
+    "id": 33,
+    "difficulty": "medium",
+    "language": "Java",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n  static int inc(int x){ return x+1; }\n  public static void main(String[] args){\n    int a=5;\n    System.out.print(inc(a));\n  }\n}\n",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "Error"
+    ],
+    "correct_answer": "6",
+    "solution": "inc(5) returns 6, so it prints 6."
+  },
+  {
+    "id": 34,
+    "difficulty": "medium",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "def g(x):\n    return x*2\nprint(g(4))\n",
+    "options": [
+      "6",
+      "8",
+      "4",
+      "Error"
+    ],
+    "correct_answer": "8",
+    "solution": "g(4) returns 4*2 = 8."
+  },
+  {
+    "id": 35,
+    "difficulty": "medium",
+    "language": "C",
+    "question": "What is the output of the following program?",
+    "code": "#include <stdio.h>\nint main(){\n  int x=0;\n  for(int i=1;i<=5;i++) if(i%2==0) x+=i;\n  printf(\"%d\", x);\n  return 0;\n}\n",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correct_answer": "6",
+    "solution": "Even numbers in 1..5 are 2 and 4. Sum=6."
+  },
+  {
+    "id": 36,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=5;\n  if(x>3) cout<<\"Y\"; else cout<<\"N\";\n}\n",
+    "options": [
+      "Y",
+      "N",
+      "YN",
+      "Error"
+    ],
+    "correct_answer": "Y",
+    "solution": "Since x=5 > 3, it prints \"Y\"."
+  },
+  {
+    "id": 37,
+    "difficulty": "medium",
+    "language": "Java",
+    "question": "What is the output of the following program?",
+    "code": "public class Main{\n  public static void main(String[] args){\n    int[] a={2,4,6};\n    System.out.print(a.length);\n  }\n}\n",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_answer": "3",
+    "solution": "Array has 3 elements; length field prints 3."
+  },
+  {
+    "id": 38,
+    "difficulty": "medium",
+    "language": "Java",
+    "question": "What is the output of the following program?",
+    "code": "public class Main{\n  public static void main(String[] args){\n    int sum=0;\n    for(int i=1;i<=4;i++) sum+=i;\n    System.out.print(sum);\n  }\n}\n",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correct_answer": "10",
+    "solution": "1+2+3+4=10."
+  },
+  {
+    "id": 39,
+    "difficulty": "medium",
+    "language": "Python",
+    "question": "What is the output of the following program?",
+    "code": "a=[1,2,3]\na.append(4)\nprint(len(a))\n",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "correct_answer": "4",
+    "solution": "append adds one element; length becomes 4."
+  },
+  {
+    "id": 40,
+    "difficulty": "medium",
+    "language": "Python",
+    "question": "What is the output of the following program?",
+    "code": "d={'a':1,'b':2}\nprint(d['b'])\n",
+    "options": [
+      "1",
+      "2",
+      "b",
+      "Error"
+    ],
+    "correct_answer": "2",
+    "solution": "Dictionary lookup by key 'b' returns 2."
+  },
+  {
+    "id": 41,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 42,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 43,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 44,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 45,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 46,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 47,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 48,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 49,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 50,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 51,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 52,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 53,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 54,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 55,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 56,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 57,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 58,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 59,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 60,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 61,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 62,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 63,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 64,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 65,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 66,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 67,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 68,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 69,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 70,
+    "difficulty": "medium",
+    "language": "C++",
+    "question": "What is the output of the following C++ program?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=1;\n  for(int i=0;i<3;i++) x*=2;\n  cout<<x;\n}\n",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct_answer": "8",
+    "solution": "x starts at 1. Multiply by 2 three times: 1→2→4→8, so output is 8."
+  },
+  {
+    "id": 71,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following code?",
+    "code": "def f(x):\n    return x+1\nx=1\nx=f(f(x))\nprint(x)\n",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "f(1)=2, then f(2)=3, so it prints 3."
+  },
+  {
+    "id": 72,
+    "difficulty": "hard",
+    "language": "Java",
+    "question": "What is the output of the following code?",
+    "code": "public class Main{\n  public static void main(String[] args){\n    String s=\"abc\";\n    System.out.print(s.substring(1,3));\n  }\n}\n",
+    "options": [
+      "ab",
+      "bc",
+      "abc",
+      "c"
+    ],
+    "correct_answer": "bc",
+    "solution": "substring(1,3) takes characters at indices 1 and 2: 'b' and 'c' → \"bc\"."
+  },
+  {
+    "id": 73,
+    "difficulty": "hard",
+    "language": "C",
+    "question": "What is the output of the following code?",
+    "code": "#include <stdio.h>\nint main(){\n  int a=3;\n  int b=++a + a;\n  printf(\"%d\", b);\n  return 0;\n}\n",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_answer": "8",
+    "solution": "First ++a makes a=4. Then b=4 + a(4) = 8. (No undefined behavior because a is only modified once in the expression.)"
+  },
+  {
+    "id": 74,
+    "difficulty": "hard",
+    "language": "C++",
+    "question": "What is the output of the following code?",
+    "code": "#include <iostream>\nusing namespace std;\nint main(){\n  int x=5;\n  cout<< (x>5 ? 1 : 2);\n}\n",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "5"
+    ],
+    "correct_answer": "2",
+    "solution": "x is not greater than 5, so the ternary chooses 2."
+  },
+  {
+    "id": 75,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 76,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 77,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 78,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 79,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 80,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 81,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 82,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 83,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 84,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 85,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 86,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 87,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 88,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 89,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 90,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 91,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 92,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 93,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 94,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 95,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 96,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 97,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 98,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 99,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  },
+  {
+    "id": 100,
+    "difficulty": "hard",
+    "language": "Python",
+    "question": "What is the output of the following Python code?",
+    "code": "nums=[1,2,3]\nnums=nums[::-1]\nprint(nums[0])\n",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct_answer": "3",
+    "solution": "Slicing with [::-1] reverses the list to [3,2,1]. nums[0] is 3."
+  }
+]

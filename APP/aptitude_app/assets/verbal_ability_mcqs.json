@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Happy\".",
+    "options": ["Joyful", "Angry", "Tired", "Silent"],
+    "correct_answer": "Joyful",
+    "solution": "\"Joyful\" means feeling or showing happiness, which matches \"Happy\"."
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Quick\".",
+    "options": ["Rapid", "Late", "Heavy", "Calm"],
+    "correct_answer": "Rapid",
+    "solution": "\"Rapid\" means fast or swift, which matches \"Quick\"."
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Begin\".",
+    "options": ["Start", "End", "Break", "Hide"],
+    "correct_answer": "Start",
+    "solution": "\"Start\" means to begin, so it matches \"Begin\"."
+  },
+  {
+    "id": 4,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Honest\".",
+    "options": ["Truthful", "Careless", "Greedy", "Noisy"],
+    "correct_answer": "Truthful",
+    "solution": "\"Truthful\" means telling the truth, which matches \"Honest\"."
+  },
+  {
+    "id": 5,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Silent\".",
+    "options": ["Quiet", "Bright", "Crowded", "Lazy"],
+    "correct_answer": "Quiet",
+    "solution": "\"Quiet\" means making little or no noise, which matches \"Silent\"."
+  },
+  {
+    "id": 6,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Brave\".",
+    "options": ["Courageous", "Fearful", "Weak", "Clumsy"],
+    "correct_answer": "Courageous",
+    "solution": "\"Courageous\" means brave and willing to face danger, which matches \"Brave\"."
+  },
+  {
+    "id": 7,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Large\".",
+    "options": ["Big", "Tiny", "Thin", "Shallow"],
+    "correct_answer": "Big",
+    "solution": "\"Big\" means large in size, matching \"Large\"."
+  },
+  {
+    "id": 8,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Help\".",
+    "options": ["Assist", "Ignore", "Disturb", "Delay"],
+    "correct_answer": "Assist",
+    "solution": "\"Assist\" means to help or support, which matches \"Help\"."
+  },
+  {
+    "id": 9,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Smart\".",
+    "options": ["Intelligent", "Dull", "Messy", "Rude"],
+    "correct_answer": "Intelligent",
+    "solution": "\"Intelligent\" means having good understanding and ability to learn, which matches \"Smart\"."
+  },
+  {
+    "id": 10,
+    "difficulty": "easy",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Strong\".",
+    "options": ["Powerful", "Fragile", "Slow", "Narrow"],
+    "correct_answer": "Powerful",
+    "solution": "\"Powerful\" means having great strength, which matches \"Strong\"."
+  },
+  {
+    "id": 11,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Hot\".",
+    "options": ["Cold", "Warm", "Boiling", "Spicy"],
+    "correct_answer": "Cold",
+    "solution": "\"Cold\" is the opposite of \"Hot\" in terms of temperature."
+  },
+  {
+    "id": 12,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Early\".",
+    "options": ["Late", "Soon", "Quick", "First"],
+    "correct_answer": "Late",
+    "solution": "\"Late\" means after the expected time, which is the opposite of \"Early\"."
+  },
+  {
+    "id": 13,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Easy\".",
+    "options": ["Difficult", "Simple", "Light", "Clear"],
+    "correct_answer": "Difficult",
+    "solution": "\"Difficult\" means hard to do, which is the opposite of \"Easy\"."
+  },
+  {
+    "id": 14,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Full\".",
+    "options": ["Empty", "Heavy", "Round", "Open"],
+    "correct_answer": "Empty",
+    "solution": "\"Empty\" means containing nothing, which is the opposite of \"Full\"."
+  },
+  {
+    "id": 15,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Bright\".",
+    "options": ["Dim", "Shiny", "White", "Clear"],
+    "correct_answer": "Dim",
+    "solution": "\"Dim\" means not bright, so it is the opposite of \"Bright\"."
+  },
+  {
+    "id": 16,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Accept\".",
+    "options": ["Reject", "Agree", "Allow", "Receive"],
+    "correct_answer": "Reject",
+    "solution": "\"Reject\" means to refuse, which is the opposite of \"Accept\"."
+  },
+  {
+    "id": 17,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Increase\".",
+    "options": ["Decrease", "Add", "Build", "Raise"],
+    "correct_answer": "Decrease",
+    "solution": "\"Decrease\" means to reduce, which is the opposite of \"Increase\"."
+  },
+  {
+    "id": 18,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Polite\".",
+    "options": ["Rude", "Kind", "Gentle", "Quiet"],
+    "correct_answer": "Rude",
+    "solution": "\"Rude\" means impolite or disrespectful, which is the opposite of \"Polite\"."
+  },
+  {
+    "id": 19,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Victory\".",
+    "options": ["Defeat", "Success", "Prize", "Glory"],
+    "correct_answer": "Defeat",
+    "solution": "\"Defeat\" is the opposite outcome of \"Victory\"."
+  },
+  {
+    "id": 20,
+    "difficulty": "easy",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Generous\".",
+    "options": ["Stingy", "Helpful", "Cheerful", "Careful"],
+    "correct_answer": "Stingy",
+    "solution": "\"Stingy\" means unwilling to give or spend, which is the opposite of \"Generous\"."
+  },
+  {
+    "id": 21,
+    "difficulty": "easy",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) He don't (B) like (C) coffee (D) at all.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "A",
+    "solution": "With \"He,\" the correct form is \"doesn't,\" not \"don't\": \"He doesn't like coffee.\""
+  },
+  {
+    "id": 22,
+    "difficulty": "easy",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) She (B) has (C) ate (D) lunch.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "After \"has,\" we need the past participle \"eaten,\" not \"ate\": \"She has eaten lunch.\""
+  },
+  {
+    "id": 23,
+    "difficulty": "easy",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) There (B) is (C) many (D) people here.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "B",
+    "solution": "\"People\" is plural, so the verb should be \"are\": \"There are many people here.\""
+  },
+  {
+    "id": 24,
+    "difficulty": "easy",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) Each (B) of the students (C) have (D) a book.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "\"Each\" is singular, so we use \"has\": \"Each of the students has a book.\""
+  },
+  {
+    "id": 25,
+    "difficulty": "easy",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) I (B) prefer tea (C) than (D) coffee.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "The correct structure is \"prefer X to Y,\" not \"prefer X than Y\": \"prefer tea to coffee.\""
+  },
+  {
+    "id": 26,
+    "difficulty": "easy",
+    "topic": "Sentence Correction",
+    "question": "Choose the correct sentence.",
+    "options": ["He go to school daily.", "He goes to school daily.", "He going to school daily.", "He gone to school daily."],
+    "correct_answer": "He goes to school daily.",
+    "solution": "With third-person singular \"He\" in simple present, the verb takes -s: \"goes\"."
+  },
+  {
+    "id": 27,
+    "difficulty": "easy",
+    "topic": "Sentence Correction",
+    "question": "Choose the correct sentence.",
+    "options": ["She is more smarter than me.", "She is smarter than me.", "She is smart than me.", "She is smartest than me."],
+    "correct_answer": "She is smarter than me.",
+    "solution": "Use the comparative form \"smarter\" without \"more\" for one-syllable adjectives."
+  },
+  {
+    "id": 28,
+    "difficulty": "easy",
+    "topic": "Sentence Correction",
+    "question": "Choose the correct sentence.",
+    "options": ["They was playing outside.", "They were playing outside.", "They are playing outside yesterday.", "They played outside tomorrow."],
+    "correct_answer": "They were playing outside.",
+    "solution": "Past continuous with plural subject \"They\" uses \"were\": \"were playing\"."
+  },
+  {
+    "id": 29,
+    "difficulty": "easy",
+    "topic": "Sentence Correction",
+    "question": "Choose the correct sentence.",
+    "options": ["I have saw that movie.", "I have seen that movie.", "I has seen that movie.", "I seen that movie."],
+    "correct_answer": "I have seen that movie.",
+    "solution": "Present perfect is \"have\" + past participle; \"seen\" is the correct past participle of \"see\"."
+  },
+  {
+    "id": 30,
+    "difficulty": "easy",
+    "topic": "Sentence Correction",
+    "question": "Choose the correct sentence.",
+    "options": ["He is interested on music.", "He is interested in music.", "He is interested at music.", "He is interested for music."],
+    "correct_answer": "He is interested in music.",
+    "solution": "The correct preposition with \"interested\" is \"in\": \"interested in music.\""
+  },
+  {
+    "id": 31,
+    "difficulty": "easy",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: She _____ to the market every Sunday.",
+    "options": ["goes", "go", "gone", "going"],
+    "correct_answer": "goes",
+    "solution": "With third-person singular \"She\" in the simple present tense, the verb takes -s: \"She goes\"."
+  },
+  {
+    "id": 32,
+    "difficulty": "easy",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: I have _____ my homework already.",
+    "options": ["finished", "finish", "finishing", "finishes"],
+    "correct_answer": "finished",
+    "solution": "Present perfect tense uses \"have\" + past participle: \"have finished\"."
+  },
+  {
+    "id": 33,
+    "difficulty": "easy",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: The cat is hiding _____ the table.",
+    "options": ["under", "on", "between", "along"],
+    "correct_answer": "under",
+    "solution": "\"Under\" correctly shows the cat's position below the table."
+  },
+  {
+    "id": 34,
+    "difficulty": "easy",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: They _____ playing football when it started raining.",
+    "options": ["were", "are", "is", "was"],
+    "correct_answer": "were",
+    "solution": "Past continuous with plural subject \"They\" uses \"were\": \"They were playing\"."
+  },
+  {
+    "id": 35,
+    "difficulty": "easy",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: This is _____ honest answer.",
+    "options": ["an", "a", "the", "no"],
+    "correct_answer": "an",
+    "solution": "\"Honest\" begins with a vowel sound (silent h), so the correct article is \"an\"."
+  },
+  {
+    "id": 36,
+    "difficulty": "easy",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: He is good _____ mathematics.",
+    "options": ["at", "in", "on", "to"],
+    "correct_answer": "at",
+    "solution": "The correct collocation is \"good at\" for skills/subjects."
+  },
+  {
+    "id": 37,
+    "difficulty": "easy",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: Please turn _____ the lights.",
+    "options": ["off", "over", "into", "through"],
+    "correct_answer": "off",
+    "solution": "\"Turn off\" means to switch off the lights."
+  },
+  {
+    "id": 38,
+    "difficulty": "easy",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: We will meet _____ 6 PM.",
+    "options": ["at", "on", "in", "by"],
+    "correct_answer": "at",
+    "solution": "We use \"at\" for specific clock times: \"at 6 PM\"."
+  },
+  {
+    "id": 39,
+    "difficulty": "easy",
+    "topic": "Reading Comprehension (short)",
+    "question": "Passage: \"Riya planned her day carefully. She made a list, finished the hardest task first, and took short breaks. By evening, she felt satisfied.\" Why did Riya feel satisfied?",
+    "options": ["She avoided all tasks.", "She completed her work in an organized way.", "She worked without any breaks.", "She left the hardest task for last."],
+    "correct_answer": "She completed her work in an organized way.",
+    "solution": "The passage shows planning, prioritizing, and taking breaks, helping her finish tasks effectively and feel satisfied."
+  },
+  {
+    "id": 40,
+    "difficulty": "easy",
+    "topic": "Reading Comprehension (short)",
+    "question": "Passage: \"The library was quiet, but it was not empty. Students read silently, and a librarian helped visitors find books.\" What is the main idea?",
+    "options": ["The library was closed.", "The library was noisy.", "The library was calm and active.", "No one visited the library."],
+    "correct_answer": "The library was calm and active.",
+    "solution": "It was quiet yet not empty, with students reading and help available, showing calm activity."
+  },
+  {
+    "id": 41,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Eloquent\".",
+    "options": ["Fluent", "Silent", "Careless", "Foolish"],
+    "correct_answer": "Fluent",
+    "solution": "\"Eloquent\" describes expressive, fluent speech, so \"Fluent\" matches best."
+  },
+  {
+    "id": 42,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Meticulous\".",
+    "options": ["Careful", "Hasty", "Lazy", "Vague"],
+    "correct_answer": "Careful",
+    "solution": "\"Meticulous\" means very careful and precise, so \"Careful\" is correct."
+  },
+  {
+    "id": 43,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Abundant\".",
+    "options": ["Plentiful", "Scarce", "Empty", "Weak"],
+    "correct_answer": "Plentiful",
+    "solution": "\"Abundant\" means existing in large quantities, which is \"Plentiful\"."
+  },
+  {
+    "id": 44,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Reluctant\".",
+    "options": ["Unwilling", "Eager", "Certain", "Cheerful"],
+    "correct_answer": "Unwilling",
+    "solution": "\"Reluctant\" means hesitant or unwilling, so \"Unwilling\" matches."
+  },
+  {
+    "id": 45,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Conceal\".",
+    "options": ["Hide", "Reveal", "Explain", "Select"],
+    "correct_answer": "Hide",
+    "solution": "\"Conceal\" means to keep from being seen, which is to \"Hide\"."
+  },
+  {
+    "id": 46,
+    "difficulty": "medium",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Rigid\".",
+    "options": ["Flexible", "Strong", "Solid", "Stable"],
+    "correct_answer": "Flexible",
+    "solution": "\"Rigid\" means stiff and unbending; its opposite is \"Flexible\"."
+  },
+  {
+    "id": 47,
+    "difficulty": "medium",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Scarce\".",
+    "options": ["Plentiful", "Rare", "Small", "Little"],
+    "correct_answer": "Plentiful",
+    "solution": "\"Scarce\" means in short supply; \"Plentiful\" means in large supply, the opposite."
+  },
+  {
+    "id": 48,
+    "difficulty": "medium",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Candid\".",
+    "options": ["Deceitful", "Frank", "Open", "Honest"],
+    "correct_answer": "Deceitful",
+    "solution": "\"Candid\" means truthful and straightforward; \"Deceitful\" is the opposite."
+  },
+  {
+    "id": 49,
+    "difficulty": "medium",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Diligent\".",
+    "options": ["Lazy", "Careful", "Busy", "Alert"],
+    "correct_answer": "Lazy",
+    "solution": "\"Diligent\" means hard-working; \"Lazy\" means unwilling to work, the opposite."
+  },
+  {
+    "id": 50,
+    "difficulty": "medium",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Benevolent\".",
+    "options": ["Malicious", "Kind", "Helpful", "Gentle"],
+    "correct_answer": "Malicious",
+    "solution": "\"Benevolent\" means kind; \"Malicious\" means intending harm, the opposite."
+  },
+  {
+    "id": 51,
+    "difficulty": "medium",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) The number of students (B) are (C) increasing (D) every year.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "B",
+    "solution": "\"The number of\" is singular, so the verb should be \"is\": \"The number of students is increasing.\""
+  },
+  {
+    "id": 52,
+    "difficulty": "medium",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) One of my friends (B) have (C) joined (D) the army.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "B",
+    "solution": "\"One of\" takes a singular verb, so it should be \"has\": \"One of my friends has joined.\""
+  },
+  {
+    "id": 53,
+    "difficulty": "medium",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) She (B) is (C) married with (D) a doctor.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "The correct preposition is \"to\": \"She is married to a doctor.\""
+  },
+  {
+    "id": 54,
+    "difficulty": "medium",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) I (B) look forward (C) to meet (D) you soon.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "After \"look forward to,\" use a gerund: \"meeting,\" not \"meet\": \"look forward to meeting you.\""
+  },
+  {
+    "id": 55,
+    "difficulty": "medium",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) She (B) said (C) that she will (D) help me.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "With past reporting verb \"said,\" we typically backshift \"will\" to \"would\": \"She said that she would help me.\""
+  },
+  {
+    "id": 56,
+    "difficulty": "medium",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"Despite of the rain, the match continued.\"",
+    "options": ["Despite the rain, the match continued.", "Despite of the rain, the match continued.", "In spite the rain, the match continued.", "Although of the rain, the match continued."],
+    "correct_answer": "Despite the rain, the match continued.",
+    "solution": "\"Despite\" is not followed by \"of\". The correct form is \"Despite the rain...\""
+  },
+  {
+    "id": 57,
+    "difficulty": "medium",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"She did not knew the answer.\"",
+    "options": ["She did not know the answer.", "She did not knew the answer.", "She does not knew the answer.", "She did not knows the answer."],
+    "correct_answer": "She did not know the answer.",
+    "solution": "After the auxiliary \"did,\" the main verb stays in base form: \"know,\" not \"knew.\""
+  },
+  {
+    "id": 58,
+    "difficulty": "medium",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"The news are very surprising.\"",
+    "options": ["The news is very surprising.", "The news are very surprising.", "The new is very surprising.", "The news were very surprising."],
+    "correct_answer": "The news is very surprising.",
+    "solution": "\"News\" is uncountable and treated as singular, so it takes \"is\"."
+  },
+  {
+    "id": 59,
+    "difficulty": "medium",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: Neither of the answers _____ correct.",
+    "options": ["is", "are", "were", "be"],
+    "correct_answer": "is",
+    "solution": "\"Neither\" is treated as singular, so it takes a singular verb: \"is\"."
+  },
+  {
+    "id": 60,
+    "difficulty": "medium",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: If I _____ you, I would apologize.",
+    "options": ["were", "was", "am", "be"],
+    "correct_answer": "were",
+    "solution": "In unreal conditionals, we use the subjunctive \"were\": \"If I were you\"."
+  },
+  {
+    "id": 61,
+    "difficulty": "medium",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: The manager as well as the employees _____ present.",
+    "options": ["was", "were", "are", "be"],
+    "correct_answer": "was",
+    "solution": "With \"as well as,\" the verb agrees with the first subject \"manager\" (singular): \"was\"."
+  },
+  {
+    "id": 62,
+    "difficulty": "medium",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: He has been working here _____ 2019.",
+    "options": ["since", "for", "from", "by"],
+    "correct_answer": "since",
+    "solution": "\"Since\" is used with a specific starting point: \"since 2019\"."
+  },
+  {
+    "id": 63,
+    "difficulty": "medium",
+    "topic": "Reading Comprehension (short)",
+    "question": "Passage: \"When the city introduced more bike lanes, some drivers complained about reduced road space. However, after a few months, traffic moved more smoothly because short trips shifted from cars to bicycles.\" Which conclusion is best supported?",
+    "options": ["Bike lanes always increase traffic.", "Reducing road space cannot improve traffic flow.", "Bike lanes can reduce car use for short trips and improve flow.", "Drivers stopped using bicycles after a few months."],
+    "correct_answer": "Bike lanes can reduce car use for short trips and improve flow.",
+    "solution": "The passage states short trips shifted from cars to bicycles and traffic moved more smoothly, supporting this conclusion."
+  },
+  {
+    "id": 64,
+    "difficulty": "medium",
+    "topic": "Reading Comprehension (short)",
+    "question": "Passage: \"The scientist did not reject the criticism. Instead, she repeated the experiment, published the updated results, and thanked the reviewers for improving the study.\" What does this show about the scientist?",
+    "options": ["She avoided feedback.", "She was defensive and refused to change.", "She was open to feedback and improved her work.", "She ignored the reviewers completely."],
+    "correct_answer": "She was open to feedback and improved her work.",
+    "solution": "Repeating the experiment, updating results, and thanking reviewers show she accepted feedback and improved her work."
+  },
+  {
+    "id": 65,
+    "difficulty": "medium",
+    "topic": "Reading Comprehension (short)",
+    "question": "Passage: \"Although the product was cheaper online, Meera bought it from a local store because she needed it immediately and wanted a warranty she could use easily.\" What motivated Meera most?",
+    "options": ["Saving money online.", "Immediate need and convenient support.", "Disliking local stores.", "Avoiding warranties."],
+    "correct_answer": "Immediate need and convenient support.",
+    "solution": "She chose the local store due to urgency and easy warranty support, despite the cheaper online price."
+  },
+  {
+    "id": 66,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Obfuscate\".",
+    "options": ["Clarify", "Confuse", "Celebrate", "Repair"],
+    "correct_answer": "Confuse",
+    "solution": "\"Obfuscate\" means to make something unclear or hard to understand, which is to \"Confuse\"."
+  },
+  {
+    "id": 67,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Ephemeral\".",
+    "options": ["Permanent", "Brief", "Risky", "Noisy"],
+    "correct_answer": "Brief",
+    "solution": "\"Ephemeral\" means lasting a very short time, so \"Brief\" is correct."
+  },
+  {
+    "id": 68,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Intransigent\".",
+    "options": ["Flexible", "Stubborn", "Generous", "Timid"],
+    "correct_answer": "Stubborn",
+    "solution": "\"Intransigent\" means unwilling to change one's views, which is \"Stubborn\"."
+  },
+  {
+    "id": 69,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Loquacious\".",
+    "options": ["Talkative", "Silent", "Hungry", "Careful"],
+    "correct_answer": "Talkative",
+    "solution": "\"Loquacious\" describes someone who talks a lot, so \"Talkative\" matches."
+  },
+  {
+    "id": 70,
+    "difficulty": "medium",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Pernicious\".",
+    "options": ["Harmless", "Highly damaging", "Beautiful", "Uncertain"],
+    "correct_answer": "Highly damaging",
+    "solution": "\"Pernicious\" means very harmful, often in a subtle or gradual way; \"Highly damaging\" matches."
+  },
+  {
+    "id": 71,
+    "difficulty": "hard",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Ubiquitous\".",
+    "options": ["Rare", "Everywhere", "Common", "Frequent"],
+    "correct_answer": "Rare",
+    "solution": "\"Ubiquitous\" means present everywhere; its opposite is \"Rare\" (not commonly found)."
+  },
+  {
+    "id": 72,
+    "difficulty": "hard",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Magnanimous\".",
+    "options": ["Petty", "Generous", "Noble", "Kind"],
+    "correct_answer": "Petty",
+    "solution": "\"Magnanimous\" means generous; \"Petty\" means small-minded and mean, the opposite."
+  },
+  {
+    "id": 73,
+    "difficulty": "hard",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Taciturn\".",
+    "options": ["Talkative", "Quiet", "Shy", "Calm"],
+    "correct_answer": "Talkative",
+    "solution": "\"Taciturn\" means saying little; \"Talkative\" is the opposite."
+  },
+  {
+    "id": 74,
+    "difficulty": "hard",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Sporadic\".",
+    "options": ["Irregular", "Occasional", "Frequent", "Random"],
+    "correct_answer": "Frequent",
+    "solution": "\"Sporadic\" means occurring irregularly; \"Frequent\" means occurring often, the opposite."
+  },
+  {
+    "id": 75,
+    "difficulty": "hard",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Concur\".",
+    "options": ["Agree", "Support", "Disagree", "Confirm"],
+    "correct_answer": "Disagree",
+    "solution": "\"Concur\" means to agree; \"Disagree\" is the opposite."
+  },
+  {
+    "id": 76,
+    "difficulty": "hard",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) Hardly (B) had the bell rung (C) when the students (D) starts shouting.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "D",
+    "solution": "The structure \"Hardly had... when...\" requires past tense later verb: \"started,\" not \"starts.\""
+  },
+  {
+    "id": 77,
+    "difficulty": "hard",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) The committee (B) have decided (C) to postpone (D) the meeting.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "B",
+    "solution": "\"Committee\" is generally treated as singular, so it should be \"has decided.\""
+  },
+  {
+    "id": 78,
+    "difficulty": "hard",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) Scarcely (B) had we reached (C) than it (D) began to snow.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "The correct pair is \"scarcely... when,\" not \"scarcely... than\": \"Scarcely had we reached when it began to snow.\""
+  },
+  {
+    "id": 79,
+    "difficulty": "hard",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) He (B) is one of those people (C) who thinks (D) money solves everything.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "In \"one of those people who...,\" the verb agrees with \"people\" (plural), so it should be \"think,\" not \"thinks.\""
+  },
+  {
+    "id": 80,
+    "difficulty": "hard",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) The reason (B) why he left (C) is because (D) he was tired.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "Avoid \"reason... is because\"; use \"reason... is that\": \"The reason why he left is that he was tired.\""
+  },
+  {
+    "id": 81,
+    "difficulty": "hard",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"He suggested me to take rest.\"",
+    "options": ["He suggested me to take rest.", "He suggested that I should take rest.", "He suggested that I take some rest.", "He suggested I to take rest."],
+    "correct_answer": "He suggested that I take some rest.",
+    "solution": "\"Suggest\" is followed by a clause (often subjunctive): \"suggested that I take...\" not \"suggested me to...\""
+  },
+  {
+    "id": 82,
+    "difficulty": "hard",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"Had I knew about the traffic, I would have left early.\"",
+    "options": ["Had I known about the traffic, I would have left early.", "Had I knew about the traffic, I would have left early.", "If I would know about the traffic, I would have left early.", "Had I know about the traffic, I would have left early."],
+    "correct_answer": "Had I known about the traffic, I would have left early.",
+    "solution": "Third-conditional inversion uses past perfect: \"Had I known...\" (past participle \"known\")."
+  },
+  {
+    "id": 83,
+    "difficulty": "hard",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"Not only he was late, but also he forgot the documents.\"",
+    "options": ["Not only was he late, but he also forgot the documents.", "Not only he was late, but also he forgot the documents.", "Not only he was late, but he also forget the documents.", "Not only was he late, but also he forgets the documents."],
+    "correct_answer": "Not only was he late, but he also forgot the documents.",
+    "solution": "After \"Not only\" at the start, inversion is required: \"was he\"; and \"also\" fits before the second verb."
+  },
+  {
+    "id": 84,
+    "difficulty": "hard",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: He spoke so softly that I could _____ hear him.",
+    "options": ["barely", "clearly", "easily", "surely"],
+    "correct_answer": "barely",
+    "solution": "\"Barely\" means almost not, matching the idea that his voice was too soft to hear well."
+  },
+  {
+    "id": 85,
+    "difficulty": "hard",
+    "topic": "Reading Comprehension (short)",
+    "question": "Passage: \"The author uses humor to discuss a serious topic. The jokes keep readers engaged, but the message remains clear.\" What is the effect of humor here?",
+    "options": ["It hides the message completely.", "It makes the topic trivial and unclear.", "It helps engagement while keeping the message clear.", "It confuses readers and reduces interest."],
+    "correct_answer": "It helps engagement while keeping the message clear.",
+    "solution": "The passage says humor keeps readers engaged while the message remains clear, so humor supports engagement without losing meaning."
+  },
+  {
+    "id": 86,
+    "difficulty": "hard",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: The proposal was rejected _____ it lacked sufficient evidence.",
+    "options": ["because", "although", "unless", "whereas"],
+    "correct_answer": "because",
+    "solution": "\"Because\" correctly introduces the reason for rejection: it lacked sufficient evidence."
+  },
+  {
+    "id": 87,
+    "difficulty": "hard",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: By the time we arrived, the show _____.",
+    "options": ["had started", "has started", "starts", "will start"],
+    "correct_answer": "had started",
+    "solution": "\"By the time\" in the past typically uses past perfect for the earlier action: the show \"had started\" before we arrived."
+  },
+  {
+    "id": 88,
+    "difficulty": "hard",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"The more you will practice, the better you will become.\"",
+    "options": ["The more you practice, the better you become.", "The more you will practice, the better you will become.", "The more you practiced, the better you will become.", "The more you practice, the better you will became."],
+    "correct_answer": "The more you practice, the better you become.",
+    "solution": "In comparative generalizations, we use simple present: \"The more you practice, the better you become.\""
+  },
+  {
+    "id": 89,
+    "difficulty": "hard",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"He is such intelligent that everyone respects him.\"",
+    "options": ["He is so intelligent that everyone respects him.", "He is such intelligent that everyone respects him.", "He is so much intelligent that everyone respects him.", "He is such an intelligent that everyone respects him."],
+    "correct_answer": "He is so intelligent that everyone respects him.",
+    "solution": "Use \"so + adjective + that\". \"Such\" is used with a noun (e.g., \"such an intelligent person\")."
+  },
+  {
+    "id": 90,
+    "difficulty": "hard",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) If he would work (B) harder, (C) he would (D) succeed.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "A",
+    "solution": "In the second conditional, we use simple past in the if-clause: \"If he worked harder, he would succeed,\" not \"would work\"."
+  },
+  {
+    "id": 91,
+    "difficulty": "hard",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) I (B) have been (C) knowing him (D) for years.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "C",
+    "solution": "\"Know\" is a stative verb and is not normally used in continuous form. Correct is \"I have known him for years.\""
+  },
+  {
+    "id": 92,
+    "difficulty": "hard",
+    "topic": "Antonyms",
+    "question": "Choose the antonym of \"Enervate\".",
+    "options": ["Weaken", "Energize", "Tire", "Drain"],
+    "correct_answer": "Energize",
+    "solution": "\"Enervate\" means to weaken or drain energy; the opposite is \"Energize\"."
+  },
+  {
+    "id": 93,
+    "difficulty": "hard",
+    "topic": "Synonyms",
+    "question": "Choose the synonym of \"Austere\".",
+    "options": ["Severe", "Luxurious", "Cheerful", "Careless"],
+    "correct_answer": "Severe",
+    "solution": "\"Austere\" means strict or severe (or plain in style), so \"Severe\" is the closest synonym."
+  },
+  {
+    "id": 94,
+    "difficulty": "hard",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: She is known _____ her ability to remain calm under pressure.",
+    "options": ["for", "to", "with", "by"],
+    "correct_answer": "for",
+    "solution": "The correct collocation is \"known for\" when we mention a characteristic or quality."
+  },
+  {
+    "id": 95,
+    "difficulty": "hard",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"Neither the manager nor the employees was aware of the change.\"",
+    "options": ["Neither the manager nor the employees were aware of the change.", "Neither the manager nor the employees was aware of the change.", "Neither the manager nor the employees are aware of the change yesterday.", "Neither the manager nor the employees be aware of the change."],
+    "correct_answer": "Neither the manager nor the employees were aware of the change.",
+    "solution": "With \"neither... nor,\" the verb agrees with the nearer subject. \"Employees\" is plural, so use \"were.\""
+  },
+  {
+    "id": 96,
+    "difficulty": "hard",
+    "topic": "Error Detection",
+    "question": "Identify the part with an error: (A) No sooner (B) did she finish (C) the call (D) when the doorbell rang.",
+    "options": ["A", "B", "C", "D"],
+    "correct_answer": "D",
+    "solution": "The correct correlative is \"no sooner... than,\" not \"when\": \"No sooner did she finish... than the doorbell rang.\""
+  },
+  {
+    "id": 97,
+    "difficulty": "hard",
+    "topic": "Reading Comprehension (short)",
+    "question": "Passage: \"Arjun checked multiple reviews before buying the phone. He ignored one extreme negative comment because it lacked details, but he paid attention to repeated complaints about battery life.\" What guided Arjun's decision most?",
+    "options": ["Single extreme opinions", "Repeated, detailed feedback patterns", "Only brand popularity", "Random selection"],
+    "correct_answer": "Repeated, detailed feedback patterns",
+    "solution": "He discounted an unsupported extreme comment but valued repeated complaints about battery life, showing he relied on consistent patterns with some justification."
+  },
+  {
+    "id": 98,
+    "difficulty": "hard",
+    "topic": "Reading Comprehension (short)",
+    "question": "Passage: \"The editor removed unnecessary words to make the article clearer. The final version was shorter but easier to understand.\" What is the main lesson from the passage?",
+    "options": ["Longer writing is always better.", "Clarity can improve by removing unnecessary words.", "Editing ruins the writer's message.", "Short writing is always incomplete."],
+    "correct_answer": "Clarity can improve by removing unnecessary words.",
+    "solution": "The passage shows that trimming unnecessary words made the article clearer, proving concise editing can improve understanding."
+  },
+  {
+    "id": 99,
+    "difficulty": "hard",
+    "topic": "Fill in the Blanks",
+    "question": "Fill in the blank: The results were surprising, _____ they were supported by strong data.",
+    "options": ["yet", "because", "therefore", "so that"],
+    "correct_answer": "yet",
+    "solution": "\"Yet\" correctly shows contrast: the results were surprising, but still supported by strong data."
+  },
+  {
+    "id": 100,
+    "difficulty": "hard",
+    "topic": "Sentence Correction",
+    "question": "Choose the best corrected sentence: \"He denied to have taken the file.\"",
+    "options": ["He denied having taken the file.", "He denied to have taken the file.", "He denied that he has took the file.", "He denied taking the file did."],
+    "correct_answer": "He denied having taken the file.",
+    "solution": "\"Deny\" is followed by a gerund, not an infinitive: \"denied having taken\" (or \"denied taking\")."
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "difficulty": "easy",
+    "subject": "DBMS",
+    "question": "Which DBMS key uniquely identifies each row in a table?",
+    "options": [
+      "Foreign key",
+      "Primary key",
+      "Candidate key",
+      "Composite key"
+    ],
+    "correct_answer": "Primary key",
+    "solution": "A primary key is chosen to uniquely identify each record (row) in a table; its values must be unique and not null."
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "subject": "DBMS",
+    "question": "Which normal form eliminates partial dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_answer": "2NF",
+    "solution": "2NF removes partial dependency by ensuring non-key attributes depend on the whole of a composite key, not part of it."
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "subject": "OS",
+    "question": "Which OS component is responsible for process scheduling?",
+    "options": [
+      "Shell",
+      "Kernel",
+      "Compiler",
+      "Assembler"
+    ],
+    "correct_answer": "Kernel",
+    "solution": "The kernel manages core OS functions including process scheduling, memory management, and device control."
+  },
+  {
+    "id": 4,
+    "difficulty": "easy",
+    "subject": "OS",
+    "question": "What is a process?",
+    "options": [
+      "A program in execution",
+      "A compiled program",
+      "A CPU register",
+      "A disk partition"
+    ],
+    "correct_answer": "A program in execution",
+    "solution": "A process is an active instance of a program, including its state, resources, and execution context."
+  },
+  {
+    "id": 5,
+    "difficulty": "easy",
+    "subject": "DSA",
+    "question": "Which data structure follows FIFO order?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Tree",
+      "Graph"
+    ],
+    "correct_answer": "Queue",
+    "solution": "A queue removes elements in the same order they were inserted (First-In-First-Out)."
+  },
+  {
+    "id": 6,
+    "difficulty": "easy",
+    "subject": "DSA",
+    "question": "Which traversal of a BST gives keys in sorted order?",
+    "options": [
+      "Preorder",
+      "Inorder",
+      "Postorder",
+      "Level order"
+    ],
+    "correct_answer": "Inorder",
+    "solution": "Inorder traversal visits left subtree, node, right subtree; for a BST this yields sorted keys."
+  },
+  {
+    "id": 7,
+    "difficulty": "easy",
+    "subject": "CN",
+    "question": "Which protocol is used to map domain names to IP addresses?",
+    "options": [
+      "HTTP",
+      "DNS",
+      "FTP",
+      "SMTP"
+    ],
+    "correct_answer": "DNS",
+    "solution": "DNS (Domain Name System) resolves human-readable domain names into IP addresses."
+  },
+  {
+    "id": 8,
+    "difficulty": "easy",
+    "subject": "CN",
+    "question": "Which layer of OSI handles routing?",
+    "options": [
+      "Data Link",
+      "Network",
+      "Transport",
+      "Session"
+    ],
+    "correct_answer": "Network",
+    "solution": "The Network layer (Layer 3) is responsible for routing packets between networks (e.g., via IP)."
+  },
+  {
+    "id": 9,
+    "difficulty": "easy",
+    "subject": "SE",
+    "question": "Which SDLC model is best known for its iterative development and frequent customer feedback?",
+    "options": [
+      "Waterfall",
+      "V-Model",
+      "Agile",
+      "Spiral"
+    ],
+    "correct_answer": "Agile",
+    "solution": "Agile emphasizes iterative development, incremental delivery, and continuous customer feedback."
+  },
+  {
+    "id": 10,
+    "difficulty": "easy",
+    "subject": "SE",
+    "question": "A use case diagram is primarily used in which phase?",
+    "options": [
+      "Requirements",
+      "Coding",
+      "Testing",
+      "Deployment"
+    ],
+    "correct_answer": "Requirements",
+    "solution": "Use cases capture functional requirements by describing interactions between users (actors) and the system."
+  },
+  {
+    "id": 11,
+    "difficulty": "easy",
+    "subject": "ML",
+    "question": "Which task predicts a continuous numeric value?",
+    "options": [
+      "Classification",
+      "Regression",
+      "Clustering",
+      "Association"
+    ],
+    "correct_answer": "Regression",
+    "solution": "Regression models predict continuous outputs (e.g., house price), unlike classification which predicts categories."
+  },
+  {
+    "id": 12,
+    "difficulty": "easy",
+    "subject": "AI",
+    "question": "Which search algorithm uses a heuristic to guide exploration?",
+    "options": [
+      "Breadth-first search",
+      "Depth-first search",
+      "A* search",
+      "Binary search"
+    ],
+    "correct_answer": "A* search",
+    "solution": "A* uses a heuristic to estimate remaining cost, prioritizing promising nodes to find an optimal path under conditions."
+  },
+  {
+    "id": 13,
+    "difficulty": "easy",
+    "subject": "Cloud Computing",
+    "question": "Which cloud service model provides virtual machines and networking resources?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "FaaS"
+    ],
+    "correct_answer": "IaaS",
+    "solution": "IaaS offers infrastructure like VMs, storage, and networking, giving users more control over OS and runtime."
+  },
+  {
+    "id": 14,
+    "difficulty": "easy",
+    "subject": "Cyber Security",
+    "question": "Which of the following is a strong password practice?",
+    "options": [
+      "Use your name",
+      "Use '123456'",
+      "Use a mix of letters, numbers, symbols",
+      "Reuse one password everywhere"
+    ],
+    "correct_answer": "Use a mix of letters, numbers, symbols",
+    "solution": "Stronger passwords use length and complexity (mixed character types) and avoid personal/common patterns."
+  },
+  {
+    "id": 15,
+    "difficulty": "easy",
+    "subject": "Compiler Design",
+    "question": "The phase that converts source code into tokens is called:",
+    "options": [
+      "Syntax analysis",
+      "Lexical analysis",
+      "Semantic analysis",
+      "Code optimization"
+    ],
+    "correct_answer": "Lexical analysis",
+    "solution": "Lexical analysis (scanner) groups characters into tokens like identifiers, keywords, operators, and literals."
+  },
+  {
+    "id": 16,
+    "difficulty": "easy",
+    "subject": "DAA",
+    "question": "What is the time complexity of binary search on a sorted array of size n?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "correct_answer": "O(log n)",
+    "solution": "Binary search halves the search space each step, resulting in logarithmic time complexity."
+  },
+  {
+    "id": 17,
+    "difficulty": "easy",
+    "subject": "DAA",
+    "question": "Which algorithm technique solves problems by combining solutions of subproblems?",
+    "options": [
+      "Greedy",
+      "Divide and Conquer",
+      "Backtracking",
+      "Brute force"
+    ],
+    "correct_answer": "Divide and Conquer",
+    "solution": "Divide and Conquer splits a problem into subproblems, solves them, and combines results (e.g., merge sort)."
+  },
+  {
+    "id": 18,
+    "difficulty": "easy",
+    "subject": "Full Stack",
+    "question": "Which HTTP method is typically used to retrieve data?",
+    "options": [
+      "POST",
+      "GET",
+      "PUT",
+      "DELETE"
+    ],
+    "correct_answer": "GET",
+    "solution": "GET requests retrieve resources from the server without modifying server state (ideally)."
+  },
+  {
+    "id": 19,
+    "difficulty": "easy",
+    "subject": "Full Stack",
+    "question": "Which status code indicates \"Not Found\"?",
+    "options": [
+      "200",
+      "301",
+      "404",
+      "500"
+    ],
+    "correct_answer": "404",
+    "solution": "HTTP 404 indicates the requested resource was not found on the server."
+  },
+  {
+    "id": 20,
+    "difficulty": "easy",
+    "subject": "OS",
+    "question": "Which of these is a non-preemptive scheduling algorithm?",
+    "options": [
+      "Round Robin",
+      "SJF (non-preemptive)",
+      "SRTF",
+      "Preemptive Priority"
+    ],
+    "correct_answer": "SJF (non-preemptive)",
+    "solution": "Non-preemptive SJF selects the shortest job and runs it to completion without preemption."
+  },
+  {
+    "id": 21,
+    "difficulty": "easy",
+    "subject": "CN",
+    "question": "Which device operates at the Data Link layer and forwards frames using MAC addresses?",
+    "options": [
+      "Router",
+      "Switch",
+      "Hub",
+      "Gateway"
+    ],
+    "correct_answer": "Switch",
+    "solution": "A switch forwards frames based on MAC addresses, a Data Link layer function."
+  },
+  {
+    "id": 22,
+    "difficulty": "easy",
+    "subject": "DBMS",
+    "question": "SQL command used to remove all rows from a table quickly (keeping structure) is:",
+    "options": [
+      "DROP",
+      "TRUNCATE",
+      "DELETE",
+      "ALTER"
+    ],
+    "correct_answer": "TRUNCATE",
+    "solution": "TRUNCATE removes all rows and resets storage/identity in many DBMSs while keeping the table structure."
+  },
+  {
+    "id": 23,
+    "difficulty": "easy",
+    "subject": "DSA",
+    "question": "Which operation is NOT typically O(1) in an array?",
+    "options": [
+      "Access by index",
+      "Update by index",
+      "Insert at beginning",
+      "Get length (stored)"
+    ],
+    "correct_answer": "Insert at beginning",
+    "solution": "Inserting at the beginning shifts elements, making it O(n) in an array."
+  },
+  {
+    "id": 24,
+    "difficulty": "easy",
+    "subject": "Cyber Security",
+    "question": "A firewall primarily helps with:",
+    "options": [
+      "Data compression",
+      "Access control",
+      "Image processing",
+      "Code compilation"
+    ],
+    "correct_answer": "Access control",
+    "solution": "Firewalls enforce network access rules by allowing/denying traffic based on policies."
+  },
+  {
+    "id": 25,
+    "difficulty": "easy",
+    "subject": "Cloud Computing",
+    "question": "A key benefit of cloud computing is:",
+    "options": [
+      "Fixed capacity only",
+      "Elastic scalability",
+      "No virtualization",
+      "No networking"
+    ],
+    "correct_answer": "Elastic scalability",
+    "solution": "Cloud resources can scale up/down on demand, enabling elasticity."
+  },
+  {
+    "id": 26,
+    "difficulty": "easy",
+    "subject": "SE",
+    "question": "Unit testing focuses on:",
+    "options": [
+      "Entire system",
+      "Single module/function",
+      "Network latency",
+      "User manuals"
+    ],
+    "correct_answer": "Single module/function",
+    "solution": "Unit tests validate the smallest testable parts (functions/classes) in isolation."
+  },
+  {
+    "id": 27,
+    "difficulty": "easy",
+    "subject": "ML",
+    "question": "Overfitting means the model:",
+    "options": [
+      "Performs well on new data",
+      "Performs poorly on training data",
+      "Learns noise and performs poorly on new data",
+      "Has too few parameters"
+    ],
+    "correct_answer": "Learns noise and performs poorly on new data",
+    "solution": "Overfitting occurs when a model fits training noise, reducing generalization."
+  },
+  {
+    "id": 28,
+    "difficulty": "easy",
+    "subject": "AI",
+    "question": "Turing Test is related to:",
+    "options": [
+      "Database indexing",
+      "Machine intelligence",
+      "Packet routing",
+      "Disk scheduling"
+    ],
+    "correct_answer": "Machine intelligence",
+    "solution": "The Turing Test evaluates whether a machine can exhibit human-like conversational intelligence."
+  },
+  {
+    "id": 29,
+    "difficulty": "easy",
+    "subject": "Compiler Design",
+    "question": "A parse tree represents:",
+    "options": [
+      "Token stream only",
+      "Hierarchical syntactic structure",
+      "Optimized machine code",
+      "Network topology"
+    ],
+    "correct_answer": "Hierarchical syntactic structure",
+    "solution": "A parse tree shows how tokens conform to grammar rules forming a syntactic structure."
+  },
+  {
+    "id": 30,
+    "difficulty": "medium",
+    "subject": "DBMS",
+    "question": "Which isolation level prevents dirty reads but may allow non-repeatable reads?",
+    "options": [
+      "Read Uncommitted",
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable"
+    ],
+    "correct_answer": "Read Committed",
+    "solution": "Read Committed disallows reading uncommitted changes (no dirty reads) but can allow changes between reads (non-repeatable reads)."
+  },
+  {
+    "id": 31,
+    "difficulty": "medium",
+    "subject": "DBMS",
+    "question": "In an ER model, a weak entity is identified by:",
+    "options": [
+      "A primary key alone",
+      "A partial key plus identifying relationship",
+      "A foreign key only",
+      "A composite attribute only"
+    ],
+    "correct_answer": "A partial key plus identifying relationship",
+    "solution": "Weak entities depend on an owner entity; they use a partial key and an identifying relationship to be uniquely identified."
+  },
+  {
+    "id": 32,
+    "difficulty": "medium",
+    "subject": "OS",
+    "question": "What causes a page fault?",
+    "options": [
+      "CPU overheating",
+      "Requested page not in main memory",
+      "Disk is full",
+      "Process finishes"
+    ],
+    "correct_answer": "Requested page not in main memory",
+    "solution": "A page fault occurs when a process accesses a page that is not currently loaded in RAM, triggering OS to load it."
+  },
+  {
+    "id": 33,
+    "difficulty": "medium",
+    "subject": "OS",
+    "question": "In deadlock, which condition means a resource cannot be forcibly taken away?",
+    "options": [
+      "Mutual exclusion",
+      "Hold and wait",
+      "No preemption",
+      "Circular wait"
+    ],
+    "correct_answer": "No preemption",
+    "solution": "No preemption means resources can't be forcibly removed; processes must release them voluntarily."
+  },
+  {
+    "id": 34,
+    "difficulty": "medium",
+    "subject": "DSA",
+    "question": "Which data structure is best for implementing LRU cache efficiently?",
+    "options": [
+      "Array only",
+      "Stack only",
+      "Hash map + doubly linked list",
+      "Binary search tree only"
+    ],
+    "correct_answer": "Hash map + doubly linked list",
+    "solution": "Hash map gives O(1) access; doubly linked list maintains recency order for O(1) updates/evictions."
+  },
+  {
+    "id": 35,
+    "difficulty": "medium",
+    "subject": "DSA",
+    "question": "The average-case time complexity of quicksort is:",
+    "options": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "correct_answer": "O(n log n)",
+    "solution": "Quicksort averages O(n log n) due to roughly balanced partitions, though worst-case can be O(n^2)."
+  },
+  {
+    "id": 36,
+    "difficulty": "medium",
+    "subject": "CN",
+    "question": "TCP provides reliability mainly using:",
+    "options": [
+      "Broadcasting",
+      "ACKs and retransmissions",
+      "Checksum only",
+      "Encryption"
+    ],
+    "correct_answer": "ACKs and retransmissions",
+    "solution": "TCP ensures reliability with sequence numbers, acknowledgments, retransmission on loss, and flow/congestion control."
+  },
+  {
+    "id": 37,
+    "difficulty": "medium",
+    "subject": "CN",
+    "question": "What is the default port for HTTPS?",
+    "options": [
+      "21",
+      "80",
+      "443",
+      "8080"
+    ],
+    "correct_answer": "443",
+    "solution": "HTTPS uses TCP port 443 by default for secure HTTP traffic."
+  },
+  {
+    "id": 38,
+    "difficulty": "medium",
+    "subject": "SE",
+    "question": "Which document describes what the system should do, not how it is built?",
+    "options": [
+      "SRS",
+      "Design Document",
+      "Test Plan",
+      "User Manual"
+    ],
+    "correct_answer": "SRS",
+    "solution": "The SRS (Software Requirements Specification) defines functional/non-functional requirements—what the system must do."
+  },
+  {
+    "id": 39,
+    "difficulty": "medium",
+    "subject": "SE",
+    "question": "Cyclomatic complexity measures:",
+    "options": [
+      "Lines of code",
+      "Number of independent paths",
+      "Memory usage",
+      "Network throughput"
+    ],
+    "correct_answer": "Number of independent paths",
+    "solution": "Cyclomatic complexity quantifies the number of linearly independent paths through code, often tied to decision points."
+  },
+  {
+    "id": 40,
+    "difficulty": "medium",
+    "subject": "ML",
+    "question": "Why is feature scaling important for k-NN?",
+    "options": [
+      "It changes labels",
+      "Distance metrics are sensitive to scale",
+      "It reduces dataset size",
+      "It guarantees no overfitting"
+    ],
+    "correct_answer": "Distance metrics are sensitive to scale",
+    "solution": "k-NN relies on distances; unscaled features can dominate distance computation and distort neighbors."
+  },
+  {
+    "id": 41,
+    "difficulty": "medium",
+    "subject": "ML",
+    "question": "Which metric is best for imbalanced classification evaluation?",
+    "options": [
+      "Accuracy only",
+      "F1-score",
+      "MSE",
+      "R-squared"
+    ],
+    "correct_answer": "F1-score",
+    "solution": "F1 combines precision and recall and is more informative than accuracy for imbalanced classes."
+  },
+  {
+    "id": 42,
+    "difficulty": "medium",
+    "subject": "AI",
+    "question": "In minimax with alpha-beta pruning, pruning happens when:",
+    "options": [
+      "alpha >= beta",
+      "alpha < beta",
+      "alpha == 0",
+      "beta == 0"
+    ],
+    "correct_answer": "alpha >= beta",
+    "solution": "If alpha (best for maximizer) becomes >= beta (best for minimizer), remaining branches cannot affect the decision and can be pruned."
+  },
+  {
+    "id": 43,
+    "difficulty": "medium",
+    "subject": "Cloud Computing",
+    "question": "A key characteristic of serverless (FaaS) is:",
+    "options": [
+      "Always-on servers",
+      "Pay-per-invocation and automatic scaling",
+      "Manual capacity planning",
+      "No network access"
+    ],
+    "correct_answer": "Pay-per-invocation and automatic scaling",
+    "solution": "FaaS runs functions on demand; you pay for execution time, and the platform auto-scales with events."
+  },
+  {
+    "id": 44,
+    "difficulty": "medium",
+    "subject": "Cyber Security",
+    "question": "What does salting passwords primarily prevent?",
+    "options": [
+      "SQL injection",
+      "Rainbow table attacks",
+      "DDoS",
+      "Phishing"
+    ],
+    "correct_answer": "Rainbow table attacks",
+    "solution": "Salt adds randomness so identical passwords hash differently, making precomputed rainbow tables ineffective."
+  },
+  {
+    "id": 45,
+    "difficulty": "medium",
+    "subject": "Compiler Design",
+    "question": "The main purpose of semantic analysis is to:",
+    "options": [
+      "Remove whitespace",
+      "Check types and declarations",
+      "Generate machine code",
+      "Compress source code"
+    ],
+    "correct_answer": "Check types and declarations",
+    "solution": "Semantic analysis enforces meaning-related rules like type checking, scope/declaration checks beyond grammar."
+  },
+  {
+    "id": 46,
+    "difficulty": "medium",
+    "subject": "DAA",
+    "question": "Which problem is typically solved using dynamic programming?",
+    "options": [
+      "Sorting",
+      "Binary search",
+      "0/1 Knapsack",
+      "Printing"
+    ],
+    "correct_answer": "0/1 Knapsack",
+    "solution": "0/1 Knapsack has optimal substructure and overlapping subproblems, making it suitable for dynamic programming."
+  },
+  {
+    "id": 47,
+    "difficulty": "medium",
+    "subject": "DAA",
+    "question": "In Dijkstra's algorithm, the requirement for edge weights is:",
+    "options": [
+      "Any weights allowed",
+      "Non-negative weights",
+      "Only negative weights",
+      "Weights must be 0 or 1 only"
+    ],
+    "correct_answer": "Non-negative weights",
+    "solution": "Dijkstra assumes non-negative weights so that greedy selection of the closest unvisited node remains valid."
+  },
+  {
+    "id": 48,
+    "difficulty": "medium",
+    "subject": "Full Stack",
+    "question": "What is CORS primarily used for?",
+    "options": [
+      "Compressing responses",
+      "Controlling cross-origin requests in browsers",
+      "Encrypting databases",
+      "Caching images"
+    ],
+    "correct_answer": "Controlling cross-origin requests in browsers",
+    "solution": "CORS defines rules for which origins can access resources, enforced by browsers for security."
+  },
+  {
+    "id": 49,
+    "difficulty": "medium",
+    "subject": "Full Stack",
+    "question": "JWT is commonly used for:",
+    "options": [
+      "Storing images",
+      "Stateless authentication",
+      "Database sharding",
+      "DNS resolution"
+    ],
+    "correct_answer": "Stateless authentication",
+    "solution": "JWT carries claims in a signed token so servers can authenticate/authorize without storing session state."
+  },
+  {
+    "id": 50,
+    "difficulty": "medium",
+    "subject": "DBMS",
+    "question": "Which join returns only matching rows from both tables?",
+    "options": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correct_answer": "INNER JOIN",
+    "solution": "INNER JOIN outputs rows where join condition matches in both tables."
+  },
+  {
+    "id": 51,
+    "difficulty": "medium",
+    "subject": "DBMS",
+    "question": "An index improves query performance primarily by:",
+    "options": [
+      "Increasing table size",
+      "Reducing disk seeks for lookups",
+      "Removing duplicates",
+      "Encrypting data"
+    ],
+    "correct_answer": "Reducing disk seeks for lookups",
+    "solution": "Indexes provide faster access paths, reducing scans/seeks for retrieval at cost of storage and write overhead."
+  },
+  {
+    "id": 52,
+    "difficulty": "medium",
+    "subject": "OS",
+    "question": "Which page replacement algorithm can suffer from Belady's anomaly?",
+    "options": [
+      "LRU",
+      "Optimal",
+      "FIFO",
+      "LFU"
+    ],
+    "correct_answer": "FIFO",
+    "solution": "FIFO can show Belady's anomaly where increasing frames can increase page faults; LRU and Optimal do not."
+  },
+  {
+    "id": 53,
+    "difficulty": "medium",
+    "subject": "OS",
+    "question": "A context switch involves:",
+    "options": [
+      "Changing disk partitions",
+      "Switching CPU from one process/thread to another",
+      "Deleting processes",
+      "Compiling code"
+    ],
+    "correct_answer": "Switching CPU from one process/thread to another",
+    "solution": "Context switch saves/restores CPU state to run another process/thread."
+  },
+  {
+    "id": 54,
+    "difficulty": "medium",
+    "subject": "DSA",
+    "question": "What is the worst-case time for searching in a balanced BST?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correct_answer": "O(log n)",
+    "solution": "Balanced BST height is O(log n), so search is O(log n)."
+  },
+  {
+    "id": 55,
+    "difficulty": "medium",
+    "subject": "DSA",
+    "question": "Which hashing collision resolution uses linked lists per bucket?",
+    "options": [
+      "Open addressing",
+      "Chaining",
+      "Double hashing",
+      "AVL balancing"
+    ],
+    "correct_answer": "Chaining",
+    "solution": "Chaining stores colliding keys in a list at each bucket."
+  },
+  {
+    "id": 56,
+    "difficulty": "medium",
+    "subject": "CN",
+    "question": "What does NAT primarily do?",
+    "options": [
+      "Encrypt packets",
+      "Translate private IPs to public IPs",
+      "Detect malware",
+      "Increase bandwidth"
+    ],
+    "correct_answer": "Translate private IPs to public IPs",
+    "solution": "NAT maps private addresses to public addresses, allowing multiple internal hosts to share an external IP."
+  },
+  {
+    "id": 57,
+    "difficulty": "medium",
+    "subject": "CN",
+    "question": "Which protocol is connectionless at transport layer?",
+    "options": [
+      "TCP",
+      "UDP",
+      "HTTP",
+      "SSH"
+    ],
+    "correct_answer": "UDP",
+    "solution": "UDP is connectionless and does not provide built-in reliability like TCP."
+  },
+  {
+    "id": 58,
+    "difficulty": "medium",
+    "subject": "SE",
+    "question": "Refactoring is best described as:",
+    "options": [
+      "Adding new features",
+      "Changing code structure without changing behavior",
+      "Fixing only runtime errors",
+      "Writing documentation"
+    ],
+    "correct_answer": "Changing code structure without changing behavior",
+    "solution": "Refactoring improves internal design/maintainability while preserving external behavior."
+  },
+  {
+    "id": 59,
+    "difficulty": "medium",
+    "subject": "SE",
+    "question": "Which testing ensures changes don't break existing functionality?",
+    "options": [
+      "Regression testing",
+      "Smoke testing",
+      "Load testing",
+      "Usability testing"
+    ],
+    "correct_answer": "Regression testing",
+    "solution": "Regression testing reruns relevant tests to confirm existing features still work after changes."
+  },
+  {
+    "id": 60,
+    "difficulty": "medium",
+    "subject": "ML",
+    "question": "Which technique reduces dimensionality while preserving maximum variance?",
+    "options": [
+      "K-means",
+      "PCA",
+      "Naive Bayes",
+      "Decision Tree"
+    ],
+    "correct_answer": "PCA",
+    "solution": "PCA projects data onto components that capture maximum variance."
+  },
+  {
+    "id": 61,
+    "difficulty": "medium",
+    "subject": "ML",
+    "question": "Regularization in linear models primarily helps to:",
+    "options": [
+      "Increase bias only",
+      "Reduce overfitting by penalizing large weights",
+      "Increase training data",
+      "Remove labels"
+    ],
+    "correct_answer": "Reduce overfitting by penalizing large weights",
+    "solution": "L1/L2 regularization adds penalty terms to discourage overly complex models."
+  },
+  {
+    "id": 62,
+    "difficulty": "medium",
+    "subject": "AI",
+    "question": "A knowledge base in an expert system stores:",
+    "options": [
+      "Only images",
+      "Facts and rules",
+      "Network packets",
+      "Binary executables"
+    ],
+    "correct_answer": "Facts and rules",
+    "solution": "Expert systems use facts and inference rules to derive conclusions."
+  },
+  {
+    "id": 63,
+    "difficulty": "medium",
+    "subject": "Cloud Computing",
+    "question": "Which concept allows multiple tenants to share the same physical resources securely?",
+    "options": [
+      "Multitenancy",
+      "Monolith",
+      "Polling",
+      "Overclocking"
+    ],
+    "correct_answer": "Multitenancy",
+    "solution": "Multitenancy isolates tenants while sharing underlying infrastructure for efficiency."
+  },
+  {
+    "id": 64,
+    "difficulty": "medium",
+    "subject": "Cyber Security",
+    "question": "What is the goal of least privilege?",
+    "options": [
+      "Give admin rights to all",
+      "Grant only required permissions",
+      "Disable authentication",
+      "Share passwords"
+    ],
+    "correct_answer": "Grant only required permissions",
+    "solution": "Least privilege minimizes risk by giving users/processes only the permissions they need."
+  },
+  {
+    "id": 65,
+    "difficulty": "medium",
+    "subject": "Compiler Design",
+    "question": "Intermediate code generation is useful because it:",
+    "options": [
+      "Eliminates the need for parsing",
+      "Makes optimization and retargeting easier",
+      "Replaces lexical analysis",
+      "Always increases code size"
+    ],
+    "correct_answer": "Makes optimization and retargeting easier",
+    "solution": "An IR (intermediate representation) decouples front end from back end, enabling optimizations and multiple targets."
+  },
+  {
+    "id": 66,
+    "difficulty": "medium",
+    "subject": "DAA",
+    "question": "The master theorem is used to solve:",
+    "options": [
+      "Graph coloring",
+      "Recurrence relations",
+      "Sorting stability",
+      "SQL queries"
+    ],
+    "correct_answer": "Recurrence relations",
+    "solution": "Master theorem provides asymptotic bounds for divide-and-conquer recurrences like T(n)=aT(n/b)+f(n)."
+  },
+  {
+    "id": 67,
+    "difficulty": "medium",
+    "subject": "Full Stack",
+    "question": "Which database property ensures all operations in a transaction are completed or none are?",
+    "options": [
+      "Isolation",
+      "Consistency",
+      "Atomicity",
+      "Durability"
+    ],
+    "correct_answer": "Atomicity",
+    "solution": "Atomicity guarantees a transaction is all-or-nothing."
+  },
+  {
+    "id": 68,
+    "difficulty": "medium",
+    "subject": "Full Stack",
+    "question": "In REST, a resource is typically identified by:",
+    "options": [
+      "MAC address",
+      "URL/URI",
+      "CPU core ID",
+      "Port number only"
+    ],
+    "correct_answer": "URL/URI",
+    "solution": "REST resources are addressed via URIs (often URLs) which clients interact with using HTTP methods."
+  },
+  {
+    "id": 69,
+    "difficulty": "hard",
+    "subject": "DBMS",
+    "question": "Which anomaly can occur if a relation is not in 3NF and non-key attributes depend on other non-key attributes?",
+    "options": [
+      "Update anomaly",
+      "Insertion anomaly",
+      "Transitive dependency anomaly",
+      "All of the above"
+    ],
+    "correct_answer": "Transitive dependency anomaly",
+    "solution": "If non-key attributes depend on other non-key attributes (transitive dependency), it violates 3NF and can cause anomalies; the core issue is transitive dependency."
+  },
+  {
+    "id": 70,
+    "difficulty": "hard",
+    "subject": "DBMS",
+    "question": "In SQL, which isolation level is the strictest and prevents phantom reads?",
+    "options": [
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable",
+      "Read Uncommitted"
+    ],
+    "correct_answer": "Serializable",
+    "solution": "Serializable enforces the highest isolation, making concurrent execution equivalent to some serial order, preventing phantom reads."
+  },
+  {
+    "id": 71,
+    "difficulty": "hard",
+    "subject": "OS",
+    "question": "The main purpose of a semaphore is to:",
+    "options": [
+      "Increase CPU speed",
+      "Provide synchronization for shared resources",
+      "Replace paging",
+      "Encrypt memory"
+    ],
+    "correct_answer": "Provide synchronization for shared resources",
+    "solution": "Semaphores coordinate access to shared resources and prevent race conditions through controlled entry/exit to critical sections."
+  },
+  {
+    "id": 72,
+    "difficulty": "hard",
+    "subject": "OS",
+    "question": "Which statement about thrashing is correct?",
+    "options": [
+      "It occurs when CPU is idle due to too many page faults",
+      "It improves performance",
+      "It only happens with segmentation",
+      "It eliminates context switches"
+    ],
+    "correct_answer": "It occurs when CPU is idle due to too many page faults",
+    "solution": "Thrashing happens when the system spends most time paging (handling faults) instead of executing processes, reducing CPU utilization."
+  },
+  {
+    "id": 73,
+    "difficulty": "hard",
+    "subject": "DSA",
+    "question": "Which is true about amortized analysis of dynamic array push operations?",
+    "options": [
+      "Every push is O(n)",
+      "Average over many pushes can be O(1)",
+      "Worst case is always O(1)",
+      "It requires recursion"
+    ],
+    "correct_answer": "Average over many pushes can be O(1)",
+    "solution": "Occasional resizing is expensive, but spread over many insertions, average (amortized) cost per push is O(1)."
+  },
+  {
+    "id": 74,
+    "difficulty": "hard",
+    "subject": "DSA",
+    "question": "Which approach is commonly used to detect cycles in a directed graph?",
+    "options": [
+      "Inorder traversal",
+      "Topological sort / DFS recursion stack",
+      "Binary search",
+      "Heapify"
+    ],
+    "correct_answer": "Topological sort / DFS recursion stack",
+    "solution": "A directed cycle can be detected using DFS with a recursion stack or by failing to perform topological sorting (not all nodes processed)."
+  },
+  {
+    "id": 75,
+    "difficulty": "hard",
+    "subject": "CN",
+    "question": "In TCP, the three-way handshake establishes:",
+    "options": [
+      "Only encryption keys",
+      "Only routing tables",
+      "Connection and initial sequence numbers",
+      "MAC addresses"
+    ],
+    "correct_answer": "Connection and initial sequence numbers",
+    "solution": "SYN, SYN-ACK, ACK establish the connection and synchronize initial sequence numbers for reliable transfer."
+  },
+  {
+    "id": 76,
+    "difficulty": "hard",
+    "subject": "CN",
+    "question": "Which mechanism primarily helps TCP avoid congestion collapse?",
+    "options": [
+      "ARP",
+      "Slow start and congestion control",
+      "DNS caching",
+      "Static routing"
+    ],
+    "correct_answer": "Slow start and congestion control",
+    "solution": "TCP uses congestion control (slow start, congestion avoidance, etc.) to adapt sending rate to network capacity."
+  },
+  {
+    "id": 77,
+    "difficulty": "hard",
+    "subject": "SE",
+    "question": "Which is the best reason to prefer interface-based design in large systems?",
+    "options": [
+      "It guarantees zero bugs",
+      "It reduces coupling and improves testability",
+      "It increases binary size",
+      "It prevents version control conflicts"
+    ],
+    "correct_answer": "It reduces coupling and improves testability",
+    "solution": "Interfaces decouple implementations from contracts, enabling mocking, parallel development, and easier changes/testing."
+  },
+  {
+    "id": 78,
+    "difficulty": "hard",
+    "subject": "SE",
+    "question": "A major risk in the Waterfall model is:",
+    "options": [
+      "Too much iteration",
+      "Late discovery of requirement issues",
+      "No documentation",
+      "No testing phase"
+    ],
+    "correct_answer": "Late discovery of requirement issues",
+    "solution": "Waterfall locks requirements early; misunderstandings may be discovered late, making changes expensive."
+  },
+  {
+    "id": 79,
+    "difficulty": "hard",
+    "subject": "ML",
+    "question": "Why can data leakage inflate model performance?",
+    "options": [
+      "Because it increases noise",
+      "Because training uses information from test/target",
+      "Because it reduces features",
+      "Because it removes labels"
+    ],
+    "correct_answer": "Because training uses information from test/target",
+    "solution": "Leakage lets the model indirectly see information it shouldn't (future/test/target), leading to unrealistically high evaluation scores."
+  },
+  {
+    "id": 80,
+    "difficulty": "hard",
+    "subject": "ML",
+    "question": "In gradient descent, a learning rate that is too high can cause:",
+    "options": [
+      "Faster guaranteed convergence",
+      "Divergence/oscillation",
+      "Higher bias always",
+      "Perfect accuracy"
+    ],
+    "correct_answer": "Divergence/oscillation",
+    "solution": "Too large steps can overshoot minima repeatedly or diverge, preventing convergence."
+  },
+  {
+    "id": 81,
+    "difficulty": "hard",
+    "subject": "AI",
+    "question": "In propositional logic, modus ponens is:",
+    "options": [
+      "If P then Q; P; therefore Q",
+      "If P then Q; Q; therefore P",
+      "P or Q; not P; therefore not Q",
+      "If P then Q; not Q; therefore P"
+    ],
+    "correct_answer": "If P then Q; P; therefore Q",
+    "solution": "Modus ponens is a valid inference rule: from P→Q and P, we infer Q."
+  },
+  {
+    "id": 82,
+    "difficulty": "hard",
+    "subject": "AI",
+    "question": "Which statement best describes reinforcement learning?",
+    "options": [
+      "Learns from labeled examples",
+      "Learns by interacting and maximizing cumulative reward",
+      "Finds clusters without labels",
+      "Only compresses data"
+    ],
+    "correct_answer": "Learns by interacting and maximizing cumulative reward",
+    "solution": "RL learns policies through trial-and-error interaction with an environment, optimizing long-term reward."
+  },
+  {
+    "id": 83,
+    "difficulty": "hard",
+    "subject": "Cloud Computing",
+    "question": "Why is eventual consistency used in some distributed databases?",
+    "options": [
+      "It guarantees immediate consistency",
+      "To improve availability and partition tolerance",
+      "To prevent scaling",
+      "To remove replication"
+    ],
+    "correct_answer": "To improve availability and partition tolerance",
+    "solution": "Eventual consistency can trade strong consistency for better availability/latency under partitions, aligning with CAP trade-offs."
+  },
+  {
+    "id": 84,
+    "difficulty": "hard",
+    "subject": "Cyber Security",
+    "question": "Which attack exploits unsanitized user input to execute unintended database queries?",
+    "options": [
+      "XSS",
+      "SQL Injection",
+      "CSRF",
+      "DDoS"
+    ],
+    "correct_answer": "SQL Injection",
+    "solution": "SQL injection occurs when user input is concatenated into SQL without proper parameterization/escaping, altering query logic."
+  },
+  {
+    "id": 85,
+    "difficulty": "hard",
+    "subject": "Compiler Design",
+    "question": "Register allocation is commonly modeled as:",
+    "options": [
+      "Sorting problem",
+      "Graph coloring problem",
+      "Shortest path problem",
+      "String matching problem"
+    ],
+    "correct_answer": "Graph coloring problem",
+    "solution": "Variables with overlapping live ranges interfere; graph coloring assigns registers so adjacent nodes get different colors/registers."
+  },
+  {
+    "id": 86,
+    "difficulty": "hard",
+    "subject": "DAA",
+    "question": "Which statement about NP-Complete problems is true?",
+    "options": [
+      "They have no known polynomial-time algorithms and are in NP",
+      "They are always solvable in O(1)",
+      "They are not verifiable quickly",
+      "They are easier than P problems"
+    ],
+    "correct_answer": "They have no known polynomial-time algorithms and are in NP",
+    "solution": "NP-Complete problems are in NP and as hard as any NP problem; if one has poly-time solution, all NP problems do."
+  },
+  {
+    "id": 87,
+    "difficulty": "hard",
+    "subject": "Full Stack",
+    "question": "Why are parameterized queries recommended for DB access?",
+    "options": [
+      "They make queries slower",
+      "They prevent SQL injection and handle escaping",
+      "They remove the need for indexes",
+      "They disable transactions"
+    ],
+    "correct_answer": "They prevent SQL injection and handle escaping",
+    "solution": "Parameterized queries separate code from data, preventing attackers from injecting SQL and letting drivers safely escape values."
+  },
+  {
+    "id": 88,
+    "difficulty": "hard",
+    "subject": "Cloud Computing",
+    "question": "In Kubernetes, a Deployment primarily manages:",
+    "options": [
+      "Pods lifecycle and rollout/rollback",
+      "DNS resolution",
+      "TLS certificates only",
+      "Database backups"
+    ],
+    "correct_answer": "Pods lifecycle and rollout/rollback",
+    "solution": "A Deployment declaratively manages ReplicaSets/Pods and supports rolling updates and rollbacks."
+  },
+  {
+    "id": 89,
+    "difficulty": "hard",
+    "subject": "Cyber Security",
+    "question": "What does \"defense in depth\" mean?",
+    "options": [
+      "One strong firewall only",
+      "Multiple layered security controls",
+      "No monitoring",
+      "Only encryption"
+    ],
+    "correct_answer": "Multiple layered security controls",
+    "solution": "Defense in depth uses multiple layers (network, host, app, monitoring) so one failure doesn't compromise everything."
+  },
+  {
+    "id": 90,
+    "difficulty": "hard",
+    "subject": "DBMS",
+    "question": "Which statement about B+ trees in indexing is correct?",
+    "options": [
+      "All keys only in internal nodes",
+      "All records only in internal nodes",
+      "Leaf nodes are linked for range queries",
+      "They cannot handle duplicates"
+    ],
+    "correct_answer": "Leaf nodes are linked for range queries",
+    "solution": "B+ tree leaves are linked, enabling efficient ordered traversal and range queries."
+  },
+  {
+    "id": 91,
+    "difficulty": "hard",
+    "subject": "DSA",
+    "question": "In a min-heap, which operation has O(log n) time?",
+    "options": [
+      "Find min",
+      "Insert",
+      "Peek root",
+      "Check empty"
+    ],
+    "correct_answer": "Insert",
+    "solution": "Inserting requires percolating up, which is proportional to heap height O(log n)."
+  },
+  {
+    "id": 92,
+    "difficulty": "hard",
+    "subject": "CN",
+    "question": "Why does TLS (HTTPS) use certificates?",
+    "options": [
+      "To speed up DNS",
+      "To authenticate server identity",
+      "To compress HTML",
+      "To change IP addresses"
+    ],
+    "correct_answer": "To authenticate server identity",
+    "solution": "Certificates bind a public key to an identity, letting clients verify they are talking to the intended server."
+  },
+  {
+    "id": 93,
+    "difficulty": "hard",
+    "subject": "SE",
+    "question": "What is the main benefit of continuous integration (CI)?",
+    "options": [
+      "Less testing",
+      "Early detection of integration issues",
+      "No need for code reviews",
+      "No builds required"
+    ],
+    "correct_answer": "Early detection of integration issues",
+    "solution": "CI merges and tests frequently, catching integration/build issues early when they are cheaper to fix."
+  },
+  {
+    "id": 94,
+    "difficulty": "hard",
+    "subject": "ML",
+    "question": "Why can a high-variance model be unstable across datasets?",
+    "options": [
+      "Because it underfits always",
+      "Because small data changes cause large prediction changes",
+      "Because it ignores features",
+      "Because it uses no parameters"
+    ],
+    "correct_answer": "Because small data changes cause large prediction changes",
+    "solution": "High variance means model is sensitive to training data, so slight changes can change learned parameters significantly."
+  },
+  {
+    "id": 95,
+    "difficulty": "hard",
+    "subject": "AI",
+    "question": "In first-order logic, quantifiers allow:",
+    "options": [
+      "Only arithmetic",
+      "Expressing statements about all/some objects",
+      "Only string matching",
+      "Only sorting"
+    ],
+    "correct_answer": "Expressing statements about all/some objects",
+    "solution": "Universal (∀) and existential (∃) quantifiers express properties over domains of objects."
+  },
+  {
+    "id": 96,
+    "difficulty": "hard",
+    "subject": "Compiler Design",
+    "question": "A left-recursive grammar is problematic for:",
+    "options": [
+      "LR parsers",
+      "LL (top-down) parsers",
+      "Finite automata",
+      "Machine code"
+    ],
+    "correct_answer": "LL (top-down) parsers",
+    "solution": "Top-down (LL) parsers can loop indefinitely on left recursion; grammars are often transformed to remove it."
+  },
+  {
+    "id": 97,
+    "difficulty": "hard",
+    "subject": "Full Stack",
+    "question": "Why is idempotency important for PUT requests?",
+    "options": [
+      "It changes data randomly",
+      "Repeating the same request gives the same result",
+      "It disables caching",
+      "It requires cookies"
+    ],
+    "correct_answer": "Repeating the same request gives the same result",
+    "solution": "PUT is defined to be idempotent: multiple identical requests should leave the server in the same state."
+  },
+  {
+    "id": 98,
+    "difficulty": "easy",
+    "subject": "OS",
+    "question": "Which of the following is an example of a system call?",
+    "options": [
+      "Sorting an array",
+      "Opening a file",
+      "Compiling a program",
+      "Formatting a document"
+    ],
+    "correct_answer": "Opening a file",
+    "solution": "Opening a file requires requesting OS services (e.g., open()) through a system call interface; the OS performs the privileged operation."
+  },
+  {
+    "id": 99,
+    "difficulty": "medium",
+    "subject": "DSA",
+    "question": "Which statement is true about a stable sorting algorithm?",
+    "options": [
+      "It uses O(1) extra memory always",
+      "It preserves the relative order of equal elements",
+      "It is always faster than unstable sorts",
+      "It cannot be implemented in-place"
+    ],
+    "correct_answer": "It preserves the relative order of equal elements",
+    "solution": "Stability means if two items compare equal, their order in the output remains the same as in the input, which matters for multi-key sorting."
+  },
+  {
+    "id": 100,
+    "difficulty": "hard",
+    "subject": "CN",
+    "question": "Why does TCP use a sliding window mechanism?",
+    "options": [
+      "To encrypt data",
+      "To provide flow control and improve throughput",
+      "To map domain names",
+      "To avoid IP addressing"
+    ],
+    "correct_answer": "To provide flow control and improve throughput",
+    "solution": "The sliding window limits unacknowledged data in flight (flow control) while allowing multiple packets to be sent before ACKs (better throughput)."
+  }
+]

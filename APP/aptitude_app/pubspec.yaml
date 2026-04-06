@@ -1,0 +1,55 @@
+name: aptitude_app
+description: "A professional Flutter app for placement aptitude preparation"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  google_sign_in: ^6.1.6
+  
+  # JS Interop (required for Firebase web)
+  js: ^0.7.1
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Data Visualization
+  fl_chart: ^0.66.0
+  
+  # HTTP & API
+  http: ^1.2.0
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # UI Components
+  google_fonts: ^6.1.0
+  
+  # Utilities
+  intl: ^0.19.0
+  flutter_dotenv: ^5.1.0
+  crypto: ^3.0.3  # For question hash generation
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/quantitative_aptitude_mcqs.json
+    - assets/logical_reasoning_mcqs.json
+    - assets/verbal_ability_mcqs.json
+    - assets/it_theory_mcqs.json
+    - assets/it_code_mcqs.json
