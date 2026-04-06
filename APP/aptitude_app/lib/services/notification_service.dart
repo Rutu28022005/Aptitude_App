@@ -12,6 +12,8 @@ class NotificationService {
       FlutterLocalNotificationsPlugin();
 
   static const int _dailyReminderId = 1001;
+  static const String _generalChannelId = 'aptitude_general_channel_v2';
+  static const String _dailyChannelId = 'aptitude_daily_channel_v2';
 
   static Future<void> initialize() async {
     if (kIsWeb) {
@@ -62,17 +64,71 @@ class NotificationService {
     return androidGranted && iosGranted;
   }
 
+  static Future<bool> areSystemNotificationsEnabled() async {
+    if (kIsWeb) {
+      return false;
+    }
+    final androidImplementation =
+        _plugin.resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>();
+    final iosImplementation =
+        _plugin.resolvePlatformSpecificImplementation<
+            IOSFlutterLocalNotificationsPlugin>();
+
+    final androidEnabled =
+        await androidImplementation?.areNotificationsEnabled() ?? true;
+    final iosEnabled =
+        await iosImplementation?.checkPermissions().then((p) => p?.isEnabled) ??
+            true;
+    return androidEnabled && iosEnabled;
+  }
+
+  static Future<Map<String, String>> getDiagnostics(TimeOfDay time) async {
+    if (kIsWeb) {
+      return {
+        'platform': 'web',
+        'supported': 'false',
+        'message': 'Local notifications are not enabled for web in this app.',
+      };
+    }
+
+    final androidImplementation =
+        _plugin.resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>();
+    final iosImplementation =
+        _plugin.resolvePlatformSpecificImplementation<
+            IOSFlutterLocalNotificationsPlugin>();
+
+    final androidEnabled =
+        await androidImplementation?.areNotificationsEnabled();
+    final canExact = await androidImplementation?.canScheduleExactNotifications();
+    final iosPermissions = await iosImplementation?.checkPermissions();
+    final pending = await _plugin.pendingNotificationRequests();
+    final next = getNextReminderDateTime(time);
+
+    return {
+      'platform': defaultTargetPlatform.name,
+      'system_notifications_enabled':
+          (androidEnabled ?? iosPermissions?.isEnabled ?? false).toString(),
+      'exact_alarm_allowed': (canExact ?? false).toString(),
+      'pending_scheduled_count': pending.length.toString(),
+      'next_reminder_local': next.toString(),
+    };
+  }
+
   static Future<void> showTestNotification() async {
     if (kIsWeb) {
       return;
     }
 
     const androidDetails = AndroidNotificationDetails(
-      'aptitude_general_channel',
+      _generalChannelId,
       'General Notifications',
       channelDescription: 'General app notifications',
       importance: Importance.max,
       priority: Priority.high,
+      playSound: true,
+      enableVibration: true,
     );
 
     const iosDetails = DarwinNotificationDetails();
@@ -92,11 +148,13 @@ class NotificationService {
     }
 
     const androidDetails = AndroidNotificationDetails(
-      'aptitude_daily_channel',
+      _dailyChannelId,
       'Daily Reminders',
       channelDescription: 'Daily reminder to practice aptitude quizzes',
-      importance: Importance.high,
+      importance: Importance.max,
       priority: Priority.high,
+      playSound: true,
+      enableVibration: true,
     );
 
     const iosDetails = DarwinNotificationDetails();

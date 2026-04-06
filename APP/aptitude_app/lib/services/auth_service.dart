@@ -126,6 +126,9 @@ class AuthService {
   // Handle Firebase Auth exceptions
   String _handleAuthException(FirebaseAuthException e) {
     switch (e.code) {
+      case 'invalid-credential':
+      case 'INVALID_LOGIN_CREDENTIALS':
+        return 'Incorrect email or password.';
       case 'popup-closed-by-user':
         return 'Google sign-in was cancelled before completion.';
       case 'popup-blocked':
@@ -134,6 +137,8 @@ class AuthService {
         return 'An account already exists with this email using another sign-in method.';
       case 'operation-not-allowed':
         return 'Google sign-in is not enabled in Firebase Authentication.';
+      case 'invalid-login-credentials':
+        return 'Incorrect email or password.';
       case 'weak-password':
         return 'The password provided is too weak.';
       case 'email-already-in-use':
@@ -151,7 +156,7 @@ class AuthService {
       case 'network-request-failed':
         return 'Network error. Please check your connection.';
       default:
-        return 'Authentication failed. Please try again.';
+        return 'Authentication failed (${e.code}). Please try again.';
     }
   }
 }

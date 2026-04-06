@@ -195,6 +195,7 @@ The app includes 15 built-in sample questions (5 per subject) for testing:
 - Mathematics: Algebra, percentages, ratios, geometry
 - Reasoning: Series completion, logic puzzles, coding-decoding
 - VARC: Vocabulary, grammar, sentence correction
+- IT: All IT topics like OS,CRNS etc.
 
 ## 🚀 Future Enhancements
 

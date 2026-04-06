@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:app_settings/app_settings.dart';
 import '../../services/notification_service.dart';
 
 class NotificationSettingsScreen extends StatefulWidget {
@@ -13,7 +14,10 @@ class NotificationSettingsScreen extends StatefulWidget {
 class _NotificationSettingsScreenState extends State<NotificationSettingsScreen> {
   bool _enabled = false;
   bool _isLoading = true;
+  bool _systemNotificationsEnabled = true;
   TimeOfDay _reminderTime = const TimeOfDay(hour: 20, minute: 0);
+  Map<String, String> _diagnostics = {};
+  bool _loadingDiagnostics = false;
 
   @override
   void initState() {
@@ -24,13 +28,34 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
   Future<void> _loadSettings() async {
     final enabled = await NotificationService.getNotificationsEnabled();
     final time = await NotificationService.getReminderTime();
+    final systemEnabled =
+        await NotificationService.areSystemNotificationsEnabled();
     if (!mounted) {
       return;
     }
     setState(() {
       _enabled = enabled;
       _reminderTime = time;
+      _systemNotificationsEnabled = systemEnabled;
       _isLoading = false;
+    });
+    await _refreshDiagnostics();
+  }
+
+  Future<void> _refreshDiagnostics() async {
+    if (kIsWeb) {
+      return;
+    }
+    setState(() {
+      _loadingDiagnostics = true;
+    });
+    final diagnostics = await NotificationService.getDiagnostics(_reminderTime);
+    if (!mounted) {
+      return;
+    }
+    setState(() {
+      _diagnostics = diagnostics;
+      _loadingDiagnostics = false;
     });
   }
 
@@ -60,6 +85,7 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
     setState(() {
       _reminderTime = picked;
     });
+    await _refreshDiagnostics();
   }
 
   Future<void> _toggleNotifications(bool value) async {
@@ -74,6 +100,14 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
         _showMessage('Notification permission is required to enable reminders.');
         return;
       }
+      final systemEnabled =
+          await NotificationService.areSystemNotificationsEnabled();
+      if (!systemEnabled) {
+        _showMessage(
+          'Notifications are blocked at system level. Please enable app notifications in phone settings.',
+        );
+        return;
+      }
       await NotificationService.scheduleDailyReminderAt(_reminderTime);
       await NotificationService.setNotificationsEnabled(true);
       await NotificationService.showTestNotification();
@@ -84,6 +118,7 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
         _enabled = true;
       });
       _showMessage('Daily reminders are enabled.');
+      await _refreshDiagnostics();
       return;
     }
 
@@ -96,6 +131,7 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
       _enabled = false;
     });
     _showMessage('Notifications are disabled.');
+    await _refreshDiagnostics();
   }
 
   void _showMessage(String message) {
@@ -121,7 +157,7 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
       ),
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
-          : Padding(
+          : SingleChildScrollView(
               padding: const EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -138,6 +174,26 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
                       onChanged: _toggleNotifications,
                     ),
                   ),
+                  if (!_systemNotificationsEnabled) ...[
+                    const SizedBox(height: 12),
+                    Card(
+                      child: ListTile(
+                        leading: const Icon(Icons.warning_amber_outlined),
+                        title: const Text('System notifications are blocked'),
+                        subtitle: const Text(
+                          'Open phone settings and allow notifications for Aptitude Pro.',
+                        ),
+                        trailing: TextButton(
+                          onPressed: () {
+                            AppSettings.openAppSettings(
+                              type: AppSettingsType.notification,
+                            );
+                          },
+                          child: const Text('Open'),
+                        ),
+                      ),
+                    ),
+                  ],
                   const SizedBox(height: 12),
                   Card(
                     child: ListTile(
@@ -166,9 +222,75 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
                           );
                           return;
                         }
+                        final systemEnabled =
+                            await NotificationService.areSystemNotificationsEnabled();
+                        if (!systemEnabled) {
+                          _showMessage(
+                            'Notifications are blocked in system settings.',
+                          );
+                          return;
+                        }
                         await NotificationService.showTestNotification();
                         _showMessage('Test notification sent.');
+                        await _refreshDiagnostics();
                       },
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  Card(
+                    child: Padding(
+                      padding: const EdgeInsets.all(12),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              const Icon(Icons.bug_report_outlined),
+                              const SizedBox(width: 8),
+                              const Expanded(
+                                child: Text(
+                                  'Notification Diagnostics',
+                                  style: TextStyle(fontWeight: FontWeight.w600),
+                                ),
+                              ),
+                              TextButton(
+                                onPressed:
+                                    _loadingDiagnostics ? null : _refreshDiagnostics,
+                                child: const Text('Refresh'),
+                              ),
+                            ],
+                          ),
+                          if (_loadingDiagnostics)
+                            const Padding(
+                              padding: EdgeInsets.only(top: 8),
+                              child: LinearProgressIndicator(),
+                            )
+                          else if (_diagnostics.isEmpty)
+                            const Padding(
+                              padding: EdgeInsets.only(top: 8),
+                              child: Text('No diagnostic data yet.'),
+                            )
+                          else
+                            ..._diagnostics.entries.map(
+                              (entry) => Padding(
+                                padding: const EdgeInsets.only(top: 6),
+                                child: Text('${entry.key}: ${entry.value}'),
+                              ),
+                            ),
+                          const SizedBox(height: 8),
+                          Align(
+                            alignment: Alignment.centerLeft,
+                            child: OutlinedButton(
+                              onPressed: () {
+                                AppSettings.openAppSettings(
+                                  type: AppSettingsType.notification,
+                                );
+                              },
+                              child: const Text('Open phone notification settings'),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   const SizedBox(height: 16),
