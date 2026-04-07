@@ -189,9 +189,9 @@ The app includes:
 
 - [Firebase Setup Guide](FIREBASE_SETUP.md)
 
-## 🎯 Sample Questions
+## 🎯 Questions
 
-The app includes 15 built-in sample questions (5 per subject) for testing:
+The app includes 100 built-in questions for each subject category wise (Easy,Medium and Hard):
 - Mathematics: Algebra, percentages, ratios, geometry
 - Reasoning: Series completion, logic puzzles, coding-decoding
 - VARC: Vocabulary, grammar, sentence correction
